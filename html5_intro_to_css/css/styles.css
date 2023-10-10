@@ -1,0 +1,33 @@
+body {
+    background: #9DFFF1;
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+}
+.text_center{
+    text-align: center;
+    text-align-all: justify;
+}
+.img_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+.row {
+    display: flex;
+    background-color: lightgrey;
+    padding: 25px;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px 25px 25px;
+}
+ul {
+    display: table;
+    text-align: left;
+}

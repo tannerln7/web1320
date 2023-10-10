@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Built Speaker - Home</title>
+    <link rel="shortcut icon" href="images/sound-system.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="text_center">Custom Built Speaker System</h1>
+
+    </header>
+    <nav class="text_center">
+        <a href="index.html">How It Works</a>
+        <a href="photos.html">The Design</a>
+    </nav>
+    <hr>
+    <main>
+        <h2 class="text_center">Components</h2>
+        <div class="row">
+            <div class="column">
+                <div class="img_center">
+                    <img src="images/esp32.jpg" alt="ESP32 MicroController on breadboard">
+                </div>
+                <h3>ESP32</h3>
+                <p>
+                    At the heart of this project is the <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank" rel="noopener noreferrer">ESP32</a>
+                    a potent microcontroller renowned for its compact size, formidable performance, and wireless capabilities. This integral component acts as the
+                    "brains" of the system, decoding information from a remote control via its infrared receiver. Upon receiving the code,
+                    the ESP32 executes custom-written C++ instructions, transmitting them over a mesh network to govern the various functions of each wireless
+                    speaker in the system. This design ensures synchronized control, offering seamless interactions across the network. Moreover, the ESP32 comes
+                    equipped with a Bluetooth module, enabling it to receive audio wirelessly from devices like mobile phones. It processes the audio data,
+                    packetizes it, and dispatches it across the speaker network, guaranteeing each audio packet is acknowledged by the intended speaker and
+                    ensuring synchronized playback.
+                </p>
+            </div>
+            <div class="column">
+                <div class="img_center">
+                    <img src="images/adau1701.jpg" alt="ADAU1701 DSP">
+                </div>
+                <h3>Adau1701</h3>
+                <p>
+                    Acting as the digital audio processor, the <a href="https://www.analog.com/en/products/adau1701.html#product-overview" target="_blank" rel="noopener noreferrer">ADAU1701</a>
+                    is pivotal in refining and managing the audio signals that course through the system. Its built-in SigmaDSP core empowers the ADAU1701 to undertake
+                    real-time audio processing. This feature allows me to modify and optimize the sound output, catering to my distinct preferences. Be it for equalization,
+                    dynamics processing, or even advanced audio effects, this chip performs with unparalleled finesse. Its integration signifies that my audio setup isn't merely
+                    focused on volume but is dedicated to delivering unmatched fidelity and crystal-clear sound. In essence, the ADAU1701 is the linchpin behind the sound quality,
+                    ingesting the audio signal fed by the ESP32 and processing it to ascertain the best possible auditory experience.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>Features</h2>
+                <br>
+                <ul>
+                    <li>Wireless Controls</li>
+                    <li>Optical and analog inputs</li>
+                    <li>Bluetooth Audio</li>
+                    <li>High Fidelity Audio</li>
+                    <li>Customizable Sound</li>
+                    <li>Multi-Speaker Synchronization</li>
+                    <li>Expandable Architecture</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>
+            &copy 2023 - <a href="https://github.com/tannerln7/web1320" target="_blank" rel="noopener noreferrer">Tanner Lane</a>
+        </p>
+    </footer>
+
+</body>
+</html>
+<!--/<a href="https://iconscout.com/icons/sound-system" class="text-underline font-size-sm" target="_blank">Sound System</a> by <a href="https://iconscout.com/contributors/triangle-squad" class="text-underline font-size-sm" target="_blank">Triangle Squad</a>-->

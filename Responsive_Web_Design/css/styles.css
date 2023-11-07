@@ -1,0 +1,380 @@
+
+ /* Header styles */
+    header {
+        background-color: #333;
+        color: #fff;
+        padding-top: 0.5rem;
+        padding-bottom: 5px;
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        white-space: nowrap;
+    }
+
+
+    .header-title {
+        margin-right: auto;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        padding: 0.5rem 1.5rem 0.5rem 8rem;
+        background-color: #cc5500;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /* Navigation styles */
+    nav {
+        height: 40px;
+        background-color: slategrey;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 1.5rem;
+        margin-right: 1rem;
+        transition: background-color 0.5s, border-radius 0.5s;
+        z-index: 1;
+        position: relative;
+        display: flex;
+    }
+
+    nav a:nth-child(1)::after,
+    nav a:nth-child(2)::after,
+    nav a:nth-child(3)::after,
+    nav a:nth-child(4)::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -3px;
+        width: 2px;
+        height: 50%;
+        background-color: white;
+        transform: translateY(-50%);
+        z-index: 0;
+    }
+
+    nav a:nth-child(2)::before,
+    nav a:nth-child(3)::before,
+    nav a:nth-child(4)::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -3px;
+        width: 2px;
+        height: 50%;
+        background-color: white;
+        transform: translateY(-50%);
+        z-index: 0;
+    }
+
+    nav a:hover {
+        background-color: #0096FF;
+        border-radius: 10px;
+    }
+
+    .wave {
+        flex: 1;
+        position: relative;
+    }
+
+    .wave::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 2px;
+        height: 55%;
+        background-color: white;
+        transform: translateY(-50%);
+        z-index: 0;
+    }
+
+    /* Main content styles */
+    main {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 5%;
+        background-color: #fff;
+        margin: 2rem 2rem;
+        box-shadow: 0 0 10px darkgrey;
+    }
+
+    .container > main {
+        padding: 2rem;
+    }
+
+    section, aside {
+        flex: 1;
+    }
+
+    section {
+        margin-right: 1rem;
+    }
+
+    aside {
+        margin-left: 1rem;
+    }
+
+    /* Image styling */
+    .topic-image {
+        width: 100%;
+        margin: 1rem 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Heading styles */
+    h1, h2, h3 {
+        margin-bottom: 1rem;
+    }
+
+    /* Paragraph and list styles */
+    p, ul {
+        margin-bottom: 1rem;
+        text-align: justify;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 1rem;
+    }
+
+    /* Footer styles */
+    footer {
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        height: 5rem;
+        background-color: #333;
+        width: 100%;
+    }
+
+    .footer-content p {
+        color: grey;
+        margin: 0;
+        padding: 1.5rem 1.5rem;
+    }
+
+    #contact-section {
+        background-color: #f5f5f5;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #home-content {
+        background-color: #f9f9f9;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+
+    #benefits-content {
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 20px 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    #diy-content {
+        background-color: #e9e9e9;
+        padding: 20px;
+        margin: 20px 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    body, h1, h2, h3, p, ul, li, a {
+        margin: 0;
+        padding: 1rem;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: linear-gradient(white, lightgrey);
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        margin: 2rem 0;
+    }
+
+/* Phone view */
+@media (max-width: 767px) {
+
+    h1, h2, h3 { /* Center the headings */
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    body {
+        align-items: stretch;
+    }
+
+    .container {
+        width: auto;
+        margin: 1rem;
+        box-shadow: none; /* Remove box-shadow for a flatter design on mobile */
+    }
+
+    main {
+        flex-direction: column; /* Stack the sections on top of each other */
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    header {
+        flex-direction: column; /* Stack the header items */
+        align-items: center;
+        height: auto;
+        padding-top: 1rem;
+    }
+
+    .header-title {
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1.2rem;
+        text-align: center;
+        border-radius: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 90%;
+
+    }
+
+    nav {
+        flex-direction: column; /* Stack the nav items */
+        border-radius: 10px;
+        width: 75%;
+        height: auto;
+        background-color: transparent;
+    }
+
+    nav a::after,
+    nav a::before,
+    .wave::before,
+    .wave{
+        display: none; /* Remove the vertical dividers and wave SVG*/
+    }
+
+    nav a {
+        width: 100%;
+        border-bottom: 3px solid #ccc; /* Add Horizontal dividers */
+        justify-content: center;
+        background-color: slategrey;
+    }
+    nav a:nth-child(4){
+        border-bottom: none; /* Remove the last divider */
+    }
+    section, aside {
+        margin: 0; /* Remove margin */
+    }
+
+    footer {
+        flex-direction: column; /* Stack the footer items */
+        align-items: center;
+    }
+}
+
+/* Tablet View*/
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    h1, h2, h3 {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    body {
+        align-items: stretch;
+    }
+
+    .container {
+        width: auto;
+        margin: 1rem;
+        box-shadow: none;
+    }
+
+    main {
+        flex-direction: column; /* Stack the sections on top of each other */
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    header {
+        flex-direction: column; /* Stack the header items */
+        align-items: center;
+        height: auto;
+        padding-top: 1rem;
+    }
+
+    .header-title {
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1.2rem;
+        text-align: center;
+        border-radius: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 90%;
+
+    }
+
+    nav {
+        flex-direction: row; /* Horizontal Nav Bar*/
+        border-radius: 10px;
+        width: 75%;
+        height: auto;
+        background-color: slategrey;
+    }
+
+    .wave::before,
+    .wave {
+        display: none; /* Remove the wave SVG */
+    }
+
+    nav a {
+        width: 100%;
+        justify-content: center;
+        background-color: slategrey;
+    }
+
+    nav a:nth-child(4)::after{
+        display: none;
+    }
+
+    section, aside {
+        margin: 0; /* Remove margin */
+    }
+
+    footer {
+        flex-direction: column; /* Stack the footer items */
+        align-items: center;
+    }
+}
+ @media (min-width: 1024px) {
+
+ }

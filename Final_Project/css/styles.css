@@ -1,118 +1,999 @@
+@charset "UTF-8";
 body, html {
-    margin: 0;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
-    background-color: #2b2b2b;
+  margin: 0;
+  height: 100%;
+  font-family: "Arial", sans-serif;
+  background-color: #2b2b2b;
 }
 
 .site-nav {
-    width: 33.33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    padding-left: 10px;
-    height: 100%;
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding-left: 10px;
+  height: 100%;
 }
 
 .nav-item {
-    background-color: #264653;
-    margin: 2px 0;
-    padding: 20px;
-    border-radius: 0; /* Adjust as needed */
-    text-align: center;
-    transition: transform 0.3s ease;
-    transform-origin: right;
-
+  background-color: #264653;
+  margin: 2px 0;
+  padding: 20px;
+  border-radius: 0; /* Adjust as needed */
+  text-align: center;
+  transition: transform 0.3s ease;
+  transform-origin: right;
 }
 
 .nav-item a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2em;
-    display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  display: block;
 }
 
 .nav-item:hover {
-    transform: scaleX(0.9);
+  transform: scaleX(0.9);
 }
 
-#nav-home { background-color: #dcb963; }
-#nav-tutorial { background-color: #e76f51; }
-#nav-gallery { background-color: #2a9d8f; }
-#nav-contact { background-color: #7689b2; }
-#nav-about { background-color: #264653; }
+#nav-home {
+  background-color: #dcb963;
+}
+
+#nav-tutorial {
+  background-color: #e76f51;
+}
+
+#nav-gallery {
+  background-color: #2a9d8f;
+}
+
+#nav-contact {
+  background-color: #7689b2;
+}
+
+#nav-about {
+  background-color: #264653;
+}
 
 .site-header {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-    flex-direction: column;
-    position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  flex-direction: column;
+  position: relative;
 }
 
 .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
 }
 
 .company-logo {
-    background-image: url('../images/outline_smoothed.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
+  background-image: url("../images/outline_smoothed.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
 }
 
 .company-title {
-    font-size: 1.5em;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 700;
-    color: #000;
-    text-align: right;
+  font-size: 1.5em;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-align: right;
 }
 
 .site-header h1 {
-    margin: 0;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 400;
-    font-size: 2.5em;
-    line-height: 1.2;
-    max-width: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 1.2;
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.site-header h1::before {
+  content: "​";
+  content: "​"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+  alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 13.08s linear 1s 0 forwards, typed-0-final 5.6s linear 1s 1 forwards;
+}
+@keyframes typed-0-final {
+  0%, 1.7857142857% {
+    content: "​T";
+    content: "​T"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  1.7867142857%, 3.5714285714% {
+    content: "​Th";
+    content: "​Th"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  3.5724285714%, 5.3571428571% {
+    content: "​The";
+    content: "​The"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  5.3581428571%, 7.1428571429% {
+    content: "​The ";
+    content: "​The "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  7.1438571429%, 8.9285714286% {
+    content: "​The #";
+    content: "​The #"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  8.9295714286%, 10.7142857143% {
+    content: "​The #1";
+    content: "​The #1"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  10.7152857143%, 12.5% {
+    content: "​The #1 ";
+    content: "​The #1 "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  12.501%, 14.2857142857% {
+    content: "​The #1 s";
+    content: "​The #1 s"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  14.2867142857%, 16.0714285714% {
+    content: "​The #1 so";
+    content: "​The #1 so"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  16.0724285714%, 17.8571428571% {
+    content: "​The #1 sou";
+    content: "​The #1 sou"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  17.8581428571%, 19.6428571429% {
+    content: "​The #1 sour";
+    content: "​The #1 sour"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  19.6438571429%, 21.4285714286% {
+    content: "​The #1 sourc";
+    content: "​The #1 sourc"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  21.4295714286%, 23.2142857143% {
+    content: "​The #1 source";
+    content: "​The #1 source"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  23.2152857143%, 25% {
+    content: "​The #1 source ";
+    content: "​The #1 source "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  25.001%, 26.7857142857% {
+    content: "​The #1 source f";
+    content: "​The #1 source f"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  26.7867142857%, 28.5714285714% {
+    content: "​The #1 source fo";
+    content: "​The #1 source fo"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  28.5724285714%, 30.3571428571% {
+    content: "​The #1 source for";
+    content: "​The #1 source for"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  30.3581428571%, 32.1428571429% {
+    content: "​The #1 source for ";
+    content: "​The #1 source for "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  32.1438571429%, 33.9285714286% {
+    content: "​The #1 source for \a";
+    content: "​The #1 source for \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  33.9295714286%, 35.7142857143% {
+    content: "​The #1 source for \au";
+    content: "​The #1 source for \au"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  35.7152857143%, 37.5% {
+    content: "​The #1 source for \aun";
+    content: "​The #1 source for \aun"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  37.501%, 39.2857142857% {
+    content: "​The #1 source for \aund";
+    content: "​The #1 source for \aund"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  39.2867142857%, 41.0714285714% {
+    content: "​The #1 source for \aunde";
+    content: "​The #1 source for \aunde"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  41.0724285714%, 42.8571428571% {
+    content: "​The #1 source for \aunder";
+    content: "​The #1 source for \aunder"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  42.8581428571%, 44.6428571429% {
+    content: "​The #1 source for \aunderw";
+    content: "​The #1 source for \aunderw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  44.6438571429%, 46.4285714286% {
+    content: "​The #1 source for \aunderwa";
+    content: "​The #1 source for \aunderwa"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  46.4295714286%, 48.2142857143% {
+    content: "​The #1 source for \aunderwat";
+    content: "​The #1 source for \aunderwat"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  48.2152857143%, 50% {
+    content: "​The #1 source for \aunderwate";
+    content: "​The #1 source for \aunderwate"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  50.001%, 51.7857142857% {
+    content: "​The #1 source for \aunderwater";
+    content: "​The #1 source for \aunderwater"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  51.7867142857%, 53.5714285714% {
+    content: "​The #1 source for \aunderwater ";
+    content: "​The #1 source for \aunderwater "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  53.5724285714%, 55.3571428571% {
+    content: "​The #1 source for \aunderwater b";
+    content: "​The #1 source for \aunderwater b"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  55.3581428571%, 57.1428571429% {
+    content: "​The #1 source for \aunderwater ba";
+    content: "​The #1 source for \aunderwater ba"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  57.1438571429%, 58.9285714286% {
+    content: "​The #1 source for \aunderwater bas";
+    content: "​The #1 source for \aunderwater bas"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  58.9295714286%, 60.7142857143% {
+    content: "​The #1 source for \aunderwater bask";
+    content: "​The #1 source for \aunderwater bask"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  60.7152857143%, 62.5% {
+    content: "​The #1 source for \aunderwater baske";
+    content: "​The #1 source for \aunderwater baske"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  62.501%, 64.2857142857% {
+    content: "​The #1 source for \aunderwater basket";
+    content: "​The #1 source for \aunderwater basket"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  64.2867142857%, 66.0714285714% {
+    content: "​The #1 source for \aunderwater basket ";
+    content: "​The #1 source for \aunderwater basket "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  66.0724285714%, 67.8571428571% {
+    content: "​The #1 source for \aunderwater basket \a";
+    content: "​The #1 source for \aunderwater basket \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  67.8581428571%, 69.6428571429% {
+    content: "​The #1 source for \aunderwater basket \aw";
+    content: "​The #1 source for \aunderwater basket \aw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  69.6438571429%, 71.4285714286% {
+    content: "​The #1 source for \aunderwater basket \awe";
+    content: "​The #1 source for \aunderwater basket \awe"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  71.4295714286%, 73.2142857143% {
+    content: "​The #1 source for \aunderwater basket \awea";
+    content: "​The #1 source for \aunderwater basket \awea"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  73.2152857143%, 75% {
+    content: "​The #1 source for \aunderwater basket \aweav";
+    content: "​The #1 source for \aunderwater basket \aweav"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  75.001%, 76.7857142857% {
+    content: "​The #1 source for \aunderwater basket \aweavi";
+    content: "​The #1 source for \aunderwater basket \aweavi"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  76.7867142857%, 78.5714285714% {
+    content: "​The #1 source for \aunderwater basket \aweavin";
+    content: "​The #1 source for \aunderwater basket \aweavin"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  78.5724285714%, 80.3571428571% {
+    content: "​The #1 source for \aunderwater basket \aweaving";
+    content: "​The #1 source for \aunderwater basket \aweaving"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  80.3581428571%, 82.1428571429% {
+    content: "​The #1 source for \aunderwater basket \aweaving ";
+    content: "​The #1 source for \aunderwater basket \aweaving "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  82.1438571429%, 83.9285714286% {
+    content: "​The #1 source for \aunderwater basket \aweaving t";
+    content: "​The #1 source for \aunderwater basket \aweaving t"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  83.9295714286%, 85.7142857143% {
+    content: "​The #1 source for \aunderwater basket \aweaving tu";
+    content: "​The #1 source for \aunderwater basket \aweaving tu"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  85.7152857143%, 87.5% {
+    content: "​The #1 source for \aunderwater basket \aweaving tut";
+    content: "​The #1 source for \aunderwater basket \aweaving tut"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  87.501%, 89.2857142857% {
+    content: "​The #1 source for \aunderwater basket \aweaving tuto";
+    content: "​The #1 source for \aunderwater basket \aweaving tuto"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  89.2867142857%, 91.0714285714% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutor";
+    content: "​The #1 source for \aunderwater basket \aweaving tutor"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  91.0724285714%, 92.8571428571% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutori";
+    content: "​The #1 source for \aunderwater basket \aweaving tutori"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  92.8581428571%, 94.6428571429% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutoria";
+    content: "​The #1 source for \aunderwater basket \aweaving tutoria"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  94.6438571429%, 96.4285714286% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorial";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorial"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  96.4295714286%, 98.2142857143% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  98.2152857143%, 100% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials.";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials."/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+}
+.site-header h1::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 0.7635259939% {
+    content: "​T";
+    content: "​T"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  0.7645259939%, 1.5280519878% {
+    content: "​Th";
+    content: "​Th"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  1.5290519878%, 2.2925779817% {
+    content: "​The";
+    content: "​The"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  2.2935779817%, 3.0571039755% {
+    content: "​The ";
+    content: "​The "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  3.0581039755%, 3.8216299694% {
+    content: "​The #";
+    content: "​The #"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  3.8226299694%, 4.5861559633% {
+    content: "​The #1";
+    content: "​The #1"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  4.5871559633%, 5.3506819572% {
+    content: "​The #1 ";
+    content: "​The #1 "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  5.3516819572%, 6.1152079511% {
+    content: "​The #1 s";
+    content: "​The #1 s"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  6.1162079511%, 6.879733945% {
+    content: "​The #1 so";
+    content: "​The #1 so"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  6.880733945%, 7.6442599388% {
+    content: "​The #1 sou";
+    content: "​The #1 sou"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  7.6452599388%, 8.4087859327% {
+    content: "​The #1 sour";
+    content: "​The #1 sour"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  8.4097859327%, 9.1733119266% {
+    content: "​The #1 sourc";
+    content: "​The #1 sourc"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  9.1743119266%, 9.9378379205% {
+    content: "​The #1 source";
+    content: "​The #1 source"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  9.9388379205%, 10.7023639144% {
+    content: "​The #1 source ";
+    content: "​The #1 source "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  10.7033639144%, 11.4668899083% {
+    content: "​The #1 source f";
+    content: "​The #1 source f"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  11.4678899083%, 12.2314159021% {
+    content: "​The #1 source fo";
+    content: "​The #1 source fo"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  12.2324159021%, 12.995941896% {
+    content: "​The #1 source for";
+    content: "​The #1 source for"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  12.996941896%, 13.7604678899% {
+    content: "​The #1 source for ";
+    content: "​The #1 source for "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  13.7614678899%, 14.5249938838% {
+    content: "​The #1 source for \a";
+    content: "​The #1 source for \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  14.5259938838%, 15.2895198777% {
+    content: "​The #1 source for \au";
+    content: "​The #1 source for \au"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  15.2905198777%, 16.0540458716% {
+    content: "​The #1 source for \aun";
+    content: "​The #1 source for \aun"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  16.0550458716%, 16.8185718654% {
+    content: "​The #1 source for \aund";
+    content: "​The #1 source for \aund"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  16.8195718654%, 17.5830978593% {
+    content: "​The #1 source for \aunde";
+    content: "​The #1 source for \aunde"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  17.5840978593%, 18.3476238532% {
+    content: "​The #1 source for \aunder";
+    content: "​The #1 source for \aunder"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  18.3486238532%, 19.1121498471% {
+    content: "​The #1 source for \aunderw";
+    content: "​The #1 source for \aunderw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  19.1131498471%, 19.876675841% {
+    content: "​The #1 source for \aunderwa";
+    content: "​The #1 source for \aunderwa"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  19.877675841%, 20.6412018349% {
+    content: "​The #1 source for \aunderwat";
+    content: "​The #1 source for \aunderwat"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  20.6422018349%, 21.4057278287% {
+    content: "​The #1 source for \aunderwate";
+    content: "​The #1 source for \aunderwate"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  21.4067278287%, 22.1702538226% {
+    content: "​The #1 source for \aunderwater";
+    content: "​The #1 source for \aunderwater"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  22.1712538226%, 22.9347798165% {
+    content: "​The #1 source for \aunderwater ";
+    content: "​The #1 source for \aunderwater "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  22.9357798165%, 23.6993058104% {
+    content: "​The #1 source for \aunderwater b";
+    content: "​The #1 source for \aunderwater b"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  23.7003058104%, 24.4638318043% {
+    content: "​The #1 source for \aunderwater ba";
+    content: "​The #1 source for \aunderwater ba"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  24.4648318043%, 25.2283577982% {
+    content: "​The #1 source for \aunderwater bas";
+    content: "​The #1 source for \aunderwater bas"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  25.2293577982%, 25.992883792% {
+    content: "​The #1 source for \aunderwater bask";
+    content: "​The #1 source for \aunderwater bask"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  25.993883792%, 26.7574097859% {
+    content: "​The #1 source for \aunderwater baske";
+    content: "​The #1 source for \aunderwater baske"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  26.7584097859%, 27.5219357798% {
+    content: "​The #1 source for \aunderwater basket";
+    content: "​The #1 source for \aunderwater basket"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  27.5229357798%, 28.2864617737% {
+    content: "​The #1 source for \aunderwater basket ";
+    content: "​The #1 source for \aunderwater basket "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  28.2874617737%, 29.0509877676% {
+    content: "​The #1 source for \aunderwater basket \a";
+    content: "​The #1 source for \aunderwater basket \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  29.0519877676%, 29.8155137615% {
+    content: "​The #1 source for \aunderwater basket \aw";
+    content: "​The #1 source for \aunderwater basket \aw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  29.8165137615%, 30.5800397554% {
+    content: "​The #1 source for \aunderwater basket \awe";
+    content: "​The #1 source for \aunderwater basket \awe"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  30.5810397554%, 31.3445657492% {
+    content: "​The #1 source for \aunderwater basket \awea";
+    content: "​The #1 source for \aunderwater basket \awea"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  31.3455657492%, 32.1090917431% {
+    content: "​The #1 source for \aunderwater basket \aweav";
+    content: "​The #1 source for \aunderwater basket \aweav"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  32.1100917431%, 32.873617737% {
+    content: "​The #1 source for \aunderwater basket \aweavi";
+    content: "​The #1 source for \aunderwater basket \aweavi"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  32.874617737%, 33.6381437309% {
+    content: "​The #1 source for \aunderwater basket \aweavin";
+    content: "​The #1 source for \aunderwater basket \aweavin"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  33.6391437309%, 34.4026697248% {
+    content: "​The #1 source for \aunderwater basket \aweaving";
+    content: "​The #1 source for \aunderwater basket \aweaving"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  34.4036697248%, 35.1671957187% {
+    content: "​The #1 source for \aunderwater basket \aweaving ";
+    content: "​The #1 source for \aunderwater basket \aweaving "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  35.1681957187%, 35.9317217125% {
+    content: "​The #1 source for \aunderwater basket \aweaving t";
+    content: "​The #1 source for \aunderwater basket \aweaving t"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  35.9327217125%, 36.6962477064% {
+    content: "​The #1 source for \aunderwater basket \aweaving tu";
+    content: "​The #1 source for \aunderwater basket \aweaving tu"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  36.6972477064%, 37.4607737003% {
+    content: "​The #1 source for \aunderwater basket \aweaving tut";
+    content: "​The #1 source for \aunderwater basket \aweaving tut"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  37.4617737003%, 38.2252996942% {
+    content: "​The #1 source for \aunderwater basket \aweaving tuto";
+    content: "​The #1 source for \aunderwater basket \aweaving tuto"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  38.2262996942%, 38.9898256881% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutor";
+    content: "​The #1 source for \aunderwater basket \aweaving tutor"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  38.9908256881%, 39.754351682% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutori";
+    content: "​The #1 source for \aunderwater basket \aweaving tutori"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  39.755351682%, 40.5188776758% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutoria";
+    content: "​The #1 source for \aunderwater basket \aweaving tutoria"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  40.5198776758%, 41.2834036697% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorial";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorial"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  41.2844036697%, 42.0479296636% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  42.0489296636%, 58.7145963303% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials.";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials."/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  58.7155963303%, 59.3262171254% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorials"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  59.3272171254%, 59.9378379205% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutorial";
+    content: "​The #1 source for \aunderwater basket \aweaving tutorial"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  59.9388379205%, 60.5494587156% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutoria";
+    content: "​The #1 source for \aunderwater basket \aweaving tutoria"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  60.5504587156%, 61.1610795107% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutori";
+    content: "​The #1 source for \aunderwater basket \aweaving tutori"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  61.1620795107%, 61.7727003058% {
+    content: "​The #1 source for \aunderwater basket \aweaving tutor";
+    content: "​The #1 source for \aunderwater basket \aweaving tutor"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  61.7737003058%, 62.3843211009% {
+    content: "​The #1 source for \aunderwater basket \aweaving tuto";
+    content: "​The #1 source for \aunderwater basket \aweaving tuto"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  62.3853211009%, 62.995941896% {
+    content: "​The #1 source for \aunderwater basket \aweaving tut";
+    content: "​The #1 source for \aunderwater basket \aweaving tut"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  62.996941896%, 63.6075626911% {
+    content: "​The #1 source for \aunderwater basket \aweaving tu";
+    content: "​The #1 source for \aunderwater basket \aweaving tu"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  63.6085626911%, 64.2191834862% {
+    content: "​The #1 source for \aunderwater basket \aweaving t";
+    content: "​The #1 source for \aunderwater basket \aweaving t"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  64.2201834862%, 64.8308042813% {
+    content: "​The #1 source for \aunderwater basket \aweaving ";
+    content: "​The #1 source for \aunderwater basket \aweaving "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  64.8318042813%, 65.4424250765% {
+    content: "​The #1 source for \aunderwater basket \aweaving";
+    content: "​The #1 source for \aunderwater basket \aweaving"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  65.4434250765%, 66.0540458716% {
+    content: "​The #1 source for \aunderwater basket \aweavin";
+    content: "​The #1 source for \aunderwater basket \aweavin"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  66.0550458716%, 66.6656666667% {
+    content: "​The #1 source for \aunderwater basket \aweavi";
+    content: "​The #1 source for \aunderwater basket \aweavi"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  66.6666666667%, 67.2772874618% {
+    content: "​The #1 source for \aunderwater basket \aweav";
+    content: "​The #1 source for \aunderwater basket \aweav"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  67.2782874618%, 67.8889082569% {
+    content: "​The #1 source for \aunderwater basket \awea";
+    content: "​The #1 source for \aunderwater basket \awea"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  67.8899082569%, 68.500529052% {
+    content: "​The #1 source for \aunderwater basket \awe";
+    content: "​The #1 source for \aunderwater basket \awe"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  68.501529052%, 69.1121498471% {
+    content: "​The #1 source for \aunderwater basket \aw";
+    content: "​The #1 source for \aunderwater basket \aw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  69.1131498471%, 69.7237706422% {
+    content: "​The #1 source for \aunderwater basket \a";
+    content: "​The #1 source for \aunderwater basket \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  69.7247706422%, 70.3353914373% {
+    content: "​The #1 source for \aunderwater basket ";
+    content: "​The #1 source for \aunderwater basket "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  70.3363914373%, 70.9470122324% {
+    content: "​The #1 source for \aunderwater basket";
+    content: "​The #1 source for \aunderwater basket"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  70.9480122324%, 71.5586330275% {
+    content: "​The #1 source for \aunderwater baske";
+    content: "​The #1 source for \aunderwater baske"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  71.5596330275%, 72.1702538226% {
+    content: "​The #1 source for \aunderwater bask";
+    content: "​The #1 source for \aunderwater bask"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  72.1712538226%, 72.7818746177% {
+    content: "​The #1 source for \aunderwater bas";
+    content: "​The #1 source for \aunderwater bas"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  72.7828746177%, 73.3934954128% {
+    content: "​The #1 source for \aunderwater ba";
+    content: "​The #1 source for \aunderwater ba"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  73.3944954128%, 74.005116208% {
+    content: "​The #1 source for \aunderwater b";
+    content: "​The #1 source for \aunderwater b"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  74.006116208%, 74.6167370031% {
+    content: "​The #1 source for \aunderwater ";
+    content: "​The #1 source for \aunderwater "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  74.6177370031%, 75.2283577982% {
+    content: "​The #1 source for \aunderwater";
+    content: "​The #1 source for \aunderwater"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  75.2293577982%, 75.8399785933% {
+    content: "​The #1 source for \aunderwate";
+    content: "​The #1 source for \aunderwate"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  75.8409785933%, 76.4515993884% {
+    content: "​The #1 source for \aunderwat";
+    content: "​The #1 source for \aunderwat"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  76.4525993884%, 77.0632201835% {
+    content: "​The #1 source for \aunderwa";
+    content: "​The #1 source for \aunderwa"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  77.0642201835%, 77.6748409786% {
+    content: "​The #1 source for \aunderw";
+    content: "​The #1 source for \aunderw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  77.6758409786%, 78.2864617737% {
+    content: "​The #1 source for \aunder";
+    content: "​The #1 source for \aunder"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  78.2874617737%, 78.8980825688% {
+    content: "​The #1 source for \aunde";
+    content: "​The #1 source for \aunde"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  78.8990825688%, 79.5097033639% {
+    content: "​The #1 source for \aund";
+    content: "​The #1 source for \aund"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  79.5107033639%, 80.121324159% {
+    content: "​The #1 source for \aun";
+    content: "​The #1 source for \aun"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  80.122324159%, 80.7329449541% {
+    content: "​The #1 source for \au";
+    content: "​The #1 source for \au"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  80.7339449541%, 81.3445657492% {
+    content: "​The #1 source for \a";
+    content: "​The #1 source for \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  81.3455657492%, 81.9561865443% {
+    content: "​The #1 source for ";
+    content: "​The #1 source for "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  81.9571865443%, 82.5678073394% {
+    content: "​The #1 source for";
+    content: "​The #1 source for"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  82.5688073394%, 83.1794281346% {
+    content: "​The #1 source fo";
+    content: "​The #1 source fo"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  83.1804281346%, 83.7910489297% {
+    content: "​The #1 source f";
+    content: "​The #1 source f"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  83.7920489297%, 84.4026697248% {
+    content: "​The #1 source ";
+    content: "​The #1 source "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  84.4036697248%, 85.0142905199% {
+    content: "​The #1 source";
+    content: "​The #1 source"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  85.0152905199%, 85.625911315% {
+    content: "​The #1 sourc";
+    content: "​The #1 sourc"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  85.626911315%, 86.2375321101% {
+    content: "​The #1 sour";
+    content: "​The #1 sour"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  86.2385321101%, 86.8491529052% {
+    content: "​The #1 sou";
+    content: "​The #1 sou"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  86.8501529052%, 87.4607737003% {
+    content: "​The #1 so";
+    content: "​The #1 so"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  87.4617737003%, 88.0723944954% {
+    content: "​The #1 s";
+    content: "​The #1 s"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  88.0733944954%, 88.6840152905% {
+    content: "​The #1 ";
+    content: "​The #1 "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  88.6850152905%, 89.2956360856% {
+    content: "​The #1";
+    content: "​The #1"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  89.2966360856%, 89.9072568807% {
+    content: "​The #";
+    content: "​The #"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  89.9082568807%, 90.5188776758% {
+    content: "​The ";
+    content: "​The "/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  90.5198776758%, 91.1304984709% {
+    content: "​The";
+    content: "​The"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  91.1314984709%, 91.7421192661% {
+    content: "​Th";
+    content: "​Th"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  91.7431192661%, 92.3537400612% {
+    content: "​T";
+    content: "​T"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+  92.3547400612%, 100% {
+    content: "​";
+    content: "​"/"The #1 source for \aunderwater basket \aweaving tutorials.";
+    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
 }
 
 .page-container {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
 .content-area {
-    width: 66.67%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #ffe8d6;
+  width: 66.67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffe8d6;
 }
 
 .site-footer {
-    background-color: #264653;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-color: #264653;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
+/*# sourceMappingURL=styles.css.map */

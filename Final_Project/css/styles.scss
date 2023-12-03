@@ -81,19 +81,36 @@ body, html {
     text-align: right;
 }
 
-.site-header h1 {
-    margin: 0;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 400;
-    font-size: 2.5em;
-    line-height: 1.2;
-    max-width: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    @include typed("The #1 source for \Aunderwater basket \Aweaving tutorials.", 1, (caret-width: 2px, caret-space: 2px, iterations: 0));
+.site-header-texts{
+    &::before {
+        margin: 0;
+        font-family: 'Orbitron', sans-serif;
+        line-height: 1.2;
+        max-width: 600px;
+        font-weight: 600;
+        text-shadow:
+                1px 2px 6px rgb(255 255 255 / 75%),
+                1px 2px 4px currentColor;
+    }
+    @include typed((
+            "#1": (),
+            "Most Accurate": (),
+            ".....<[15]>": ()
+            ), [null, 1.5, .01], (
+                    iterations: 1,
+                    end-on: ("ONLY": (
+                            background: #fff linear-gradient(to right, cyan, yellow),
+                    )),
+            caret: false
+            )
+    );
 }
+
+.rest-of-text {
+    font-family: 'Orbitron', sans-serif;
+    @include typed(" <[95]>online source \A for underwater basket \A weaving information...<[25]>**", 1.5, (caret-width: 2px, caret-space: 2px, iterations: 0))
+}
+
 
 
 .page-container {

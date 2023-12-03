@@ -94,880 +94,2496 @@ body, html {
   text-align: right;
 }
 
-.site-header h1 {
+.site-header-texts::before {
   margin: 0;
   font-family: "Orbitron", sans-serif;
-  font-weight: 400;
-  font-size: 2.5em;
   line-height: 1.2;
   max-width: 600px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-weight: 600;
+  text-shadow: 1px 2px 6px rgba(255, 255, 255, 0.75), 1px 2px 4px currentColor;
 }
-.site-header h1::before {
+.site-header-texts::before {
   content: "​";
-  content: "​"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-  alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  content: "​"/"ONLY";
+  alt: "ONLY";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 13.08s linear 1s 0 forwards, typed-0-final 5.6s linear 1s 1 forwards;
+  animation: typed-0 11.2s linear 1s 1 forwards, typed-0-final 0.4s linear 12.2s 1 forwards;
 }
 @keyframes typed-0-final {
-  0%, 1.7857142857% {
-    content: "​T";
-    content: "​T"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  0%, 25% {
+    content: "​O";
+    content: "​O"/"ONLY";
+    alt: "ONLY";
+    background: #fff linear-gradient(to right, cyan, yellow);
   }
-  1.7867142857%, 3.5714285714% {
-    content: "​Th";
-    content: "​Th"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  25.001%, 50% {
+    content: "​ON";
+    content: "​ON"/"ONLY";
+    alt: "ONLY";
+    background: #fff linear-gradient(to right, cyan, yellow);
   }
-  3.5724285714%, 5.3571428571% {
-    content: "​The";
-    content: "​The"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  50.001%, 75% {
+    content: "​ONL";
+    content: "​ONL"/"ONLY";
+    alt: "ONLY";
+    background: #fff linear-gradient(to right, cyan, yellow);
   }
-  5.3581428571%, 7.1428571429% {
-    content: "​The ";
-    content: "​The "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  7.1438571429%, 8.9285714286% {
-    content: "​The #";
-    content: "​The #"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  8.9295714286%, 10.7142857143% {
-    content: "​The #1";
-    content: "​The #1"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  10.7152857143%, 12.5% {
-    content: "​The #1 ";
-    content: "​The #1 "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  12.501%, 14.2857142857% {
-    content: "​The #1 s";
-    content: "​The #1 s"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  14.2867142857%, 16.0714285714% {
-    content: "​The #1 so";
-    content: "​The #1 so"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  16.0724285714%, 17.8571428571% {
-    content: "​The #1 sou";
-    content: "​The #1 sou"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  17.8581428571%, 19.6428571429% {
-    content: "​The #1 sour";
-    content: "​The #1 sour"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  19.6438571429%, 21.4285714286% {
-    content: "​The #1 sourc";
-    content: "​The #1 sourc"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  21.4295714286%, 23.2142857143% {
-    content: "​The #1 source";
-    content: "​The #1 source"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  23.2152857143%, 25% {
-    content: "​The #1 source ";
-    content: "​The #1 source "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  25.001%, 26.7857142857% {
-    content: "​The #1 source f";
-    content: "​The #1 source f"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  26.7867142857%, 28.5714285714% {
-    content: "​The #1 source fo";
-    content: "​The #1 source fo"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  28.5724285714%, 30.3571428571% {
-    content: "​The #1 source for";
-    content: "​The #1 source for"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  30.3581428571%, 32.1428571429% {
-    content: "​The #1 source for ";
-    content: "​The #1 source for "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  32.1438571429%, 33.9285714286% {
-    content: "​The #1 source for \a";
-    content: "​The #1 source for \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  33.9295714286%, 35.7142857143% {
-    content: "​The #1 source for \au";
-    content: "​The #1 source for \au"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  35.7152857143%, 37.5% {
-    content: "​The #1 source for \aun";
-    content: "​The #1 source for \aun"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  37.501%, 39.2857142857% {
-    content: "​The #1 source for \aund";
-    content: "​The #1 source for \aund"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  39.2867142857%, 41.0714285714% {
-    content: "​The #1 source for \aunde";
-    content: "​The #1 source for \aunde"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  41.0724285714%, 42.8571428571% {
-    content: "​The #1 source for \aunder";
-    content: "​The #1 source for \aunder"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  42.8581428571%, 44.6428571429% {
-    content: "​The #1 source for \aunderw";
-    content: "​The #1 source for \aunderw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  44.6438571429%, 46.4285714286% {
-    content: "​The #1 source for \aunderwa";
-    content: "​The #1 source for \aunderwa"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  46.4295714286%, 48.2142857143% {
-    content: "​The #1 source for \aunderwat";
-    content: "​The #1 source for \aunderwat"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  48.2152857143%, 50% {
-    content: "​The #1 source for \aunderwate";
-    content: "​The #1 source for \aunderwate"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  50.001%, 51.7857142857% {
-    content: "​The #1 source for \aunderwater";
-    content: "​The #1 source for \aunderwater"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  51.7867142857%, 53.5714285714% {
-    content: "​The #1 source for \aunderwater ";
-    content: "​The #1 source for \aunderwater "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  53.5724285714%, 55.3571428571% {
-    content: "​The #1 source for \aunderwater b";
-    content: "​The #1 source for \aunderwater b"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  55.3581428571%, 57.1428571429% {
-    content: "​The #1 source for \aunderwater ba";
-    content: "​The #1 source for \aunderwater ba"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  57.1438571429%, 58.9285714286% {
-    content: "​The #1 source for \aunderwater bas";
-    content: "​The #1 source for \aunderwater bas"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  58.9295714286%, 60.7142857143% {
-    content: "​The #1 source for \aunderwater bask";
-    content: "​The #1 source for \aunderwater bask"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  60.7152857143%, 62.5% {
-    content: "​The #1 source for \aunderwater baske";
-    content: "​The #1 source for \aunderwater baske"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  62.501%, 64.2857142857% {
-    content: "​The #1 source for \aunderwater basket";
-    content: "​The #1 source for \aunderwater basket"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  64.2867142857%, 66.0714285714% {
-    content: "​The #1 source for \aunderwater basket ";
-    content: "​The #1 source for \aunderwater basket "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  66.0724285714%, 67.8571428571% {
-    content: "​The #1 source for \aunderwater basket \a";
-    content: "​The #1 source for \aunderwater basket \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  67.8581428571%, 69.6428571429% {
-    content: "​The #1 source for \aunderwater basket \aw";
-    content: "​The #1 source for \aunderwater basket \aw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  69.6438571429%, 71.4285714286% {
-    content: "​The #1 source for \aunderwater basket \awe";
-    content: "​The #1 source for \aunderwater basket \awe"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  71.4295714286%, 73.2142857143% {
-    content: "​The #1 source for \aunderwater basket \awea";
-    content: "​The #1 source for \aunderwater basket \awea"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  73.2152857143%, 75% {
-    content: "​The #1 source for \aunderwater basket \aweav";
-    content: "​The #1 source for \aunderwater basket \aweav"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  75.001%, 76.7857142857% {
-    content: "​The #1 source for \aunderwater basket \aweavi";
-    content: "​The #1 source for \aunderwater basket \aweavi"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  76.7867142857%, 78.5714285714% {
-    content: "​The #1 source for \aunderwater basket \aweavin";
-    content: "​The #1 source for \aunderwater basket \aweavin"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  78.5724285714%, 80.3571428571% {
-    content: "​The #1 source for \aunderwater basket \aweaving";
-    content: "​The #1 source for \aunderwater basket \aweaving"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  80.3581428571%, 82.1428571429% {
-    content: "​The #1 source for \aunderwater basket \aweaving ";
-    content: "​The #1 source for \aunderwater basket \aweaving "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  82.1438571429%, 83.9285714286% {
-    content: "​The #1 source for \aunderwater basket \aweaving t";
-    content: "​The #1 source for \aunderwater basket \aweaving t"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  83.9295714286%, 85.7142857143% {
-    content: "​The #1 source for \aunderwater basket \aweaving tu";
-    content: "​The #1 source for \aunderwater basket \aweaving tu"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  85.7152857143%, 87.5% {
-    content: "​The #1 source for \aunderwater basket \aweaving tut";
-    content: "​The #1 source for \aunderwater basket \aweaving tut"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  87.501%, 89.2857142857% {
-    content: "​The #1 source for \aunderwater basket \aweaving tuto";
-    content: "​The #1 source for \aunderwater basket \aweaving tuto"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  89.2867142857%, 91.0714285714% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutor";
-    content: "​The #1 source for \aunderwater basket \aweaving tutor"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  91.0724285714%, 92.8571428571% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutori";
-    content: "​The #1 source for \aunderwater basket \aweaving tutori"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  92.8581428571%, 94.6428571429% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutoria";
-    content: "​The #1 source for \aunderwater basket \aweaving tutoria"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  94.6438571429%, 96.4285714286% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorial";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorial"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  96.4295714286%, 98.2142857143% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  98.2152857143%, 100% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials.";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials."/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+  75.001%, 100% {
+    content: "​ONLY";
+    content: "​ONLY"/"ONLY";
+    alt: "ONLY";
+    background: #fff linear-gradient(to right, cyan, yellow);
   }
 }
-.site-header h1::after {
+@keyframes typed-0 {
+  0%, 0.8918571429% {
+    content: "​#";
+    content: "​#"/"ONLY";
+    alt: "ONLY";
+  }
+  0.8928571429%, 15.2668571429% {
+    content: "​#1";
+    content: "​#1"/"ONLY";
+    alt: "ONLY";
+  }
+  15.2678571429%, 15.3561428571% {
+    content: "​#";
+    content: "​#"/"ONLY";
+    alt: "ONLY";
+  }
+  15.3571428571%, 24.2847142857% {
+    content: "​";
+    content: "​"/"ONLY";
+    alt: "ONLY";
+  }
+  24.2857142857%, 25.1775714286% {
+    content: "​M";
+    content: "​M"/"ONLY";
+    alt: "ONLY";
+  }
+  25.1785714286%, 26.0704285714% {
+    content: "​Mo";
+    content: "​Mo"/"ONLY";
+    alt: "ONLY";
+  }
+  26.0714285714%, 26.9632857143% {
+    content: "​Mos";
+    content: "​Mos"/"ONLY";
+    alt: "ONLY";
+  }
+  26.9642857143%, 27.8561428571% {
+    content: "​Most";
+    content: "​Most"/"ONLY";
+    alt: "ONLY";
+  }
+  27.8571428571%, 28.749% {
+    content: "​Most ";
+    content: "​Most "/"ONLY";
+    alt: "ONLY";
+  }
+  28.75%, 29.6418571429% {
+    content: "​Most A";
+    content: "​Most A"/"ONLY";
+    alt: "ONLY";
+  }
+  29.6428571429%, 30.5347142857% {
+    content: "​Most Ac";
+    content: "​Most Ac"/"ONLY";
+    alt: "ONLY";
+  }
+  30.5357142857%, 31.4275714286% {
+    content: "​Most Acc";
+    content: "​Most Acc"/"ONLY";
+    alt: "ONLY";
+  }
+  31.4285714286%, 32.3204285714% {
+    content: "​Most Accu";
+    content: "​Most Accu"/"ONLY";
+    alt: "ONLY";
+  }
+  32.3214285714%, 33.2132857143% {
+    content: "​Most Accur";
+    content: "​Most Accur"/"ONLY";
+    alt: "ONLY";
+  }
+  33.2142857143%, 34.1061428571% {
+    content: "​Most Accura";
+    content: "​Most Accura"/"ONLY";
+    alt: "ONLY";
+  }
+  34.1071428571%, 34.999% {
+    content: "​Most Accurat";
+    content: "​Most Accurat"/"ONLY";
+    alt: "ONLY";
+  }
+  35%, 49.374% {
+    content: "​Most Accurate";
+    content: "​Most Accurate"/"ONLY";
+    alt: "ONLY";
+  }
+  49.375%, 49.4632857143% {
+    content: "​Most Accurat";
+    content: "​Most Accurat"/"ONLY";
+    alt: "ONLY";
+  }
+  49.4642857143%, 49.5525714286% {
+    content: "​Most Accura";
+    content: "​Most Accura"/"ONLY";
+    alt: "ONLY";
+  }
+  49.5535714286%, 49.6418571429% {
+    content: "​Most Accur";
+    content: "​Most Accur"/"ONLY";
+    alt: "ONLY";
+  }
+  49.6428571429%, 49.7311428571% {
+    content: "​Most Accu";
+    content: "​Most Accu"/"ONLY";
+    alt: "ONLY";
+  }
+  49.7321428571%, 49.8204285714% {
+    content: "​Most Acc";
+    content: "​Most Acc"/"ONLY";
+    alt: "ONLY";
+  }
+  49.8214285714%, 49.9097142857% {
+    content: "​Most Ac";
+    content: "​Most Ac"/"ONLY";
+    alt: "ONLY";
+  }
+  49.9107142857%, 49.999% {
+    content: "​Most A";
+    content: "​Most A"/"ONLY";
+    alt: "ONLY";
+  }
+  50%, 50.0882857143% {
+    content: "​Most ";
+    content: "​Most "/"ONLY";
+    alt: "ONLY";
+  }
+  50.0892857143%, 50.1775714286% {
+    content: "​Most";
+    content: "​Most"/"ONLY";
+    alt: "ONLY";
+  }
+  50.1785714286%, 50.2668571429% {
+    content: "​Mos";
+    content: "​Mos"/"ONLY";
+    alt: "ONLY";
+  }
+  50.2678571429%, 50.3561428571% {
+    content: "​Mo";
+    content: "​Mo"/"ONLY";
+    alt: "ONLY";
+  }
+  50.3571428571%, 50.4454285714% {
+    content: "​M";
+    content: "​M"/"ONLY";
+    alt: "ONLY";
+  }
+  50.4464285714%, 59.374% {
+    content: "​";
+    content: "​"/"ONLY";
+    alt: "ONLY";
+  }
+  59.375%, 60.2668571429% {
+    content: "​.";
+    content: "​."/"ONLY";
+    alt: "ONLY";
+  }
+  60.2678571429%, 61.1597142857% {
+    content: "​..";
+    content: "​.."/"ONLY";
+    alt: "ONLY";
+  }
+  61.1607142857%, 62.0525714286% {
+    content: "​...";
+    content: "​..."/"ONLY";
+    alt: "ONLY";
+  }
+  62.0535714286%, 62.9454285714% {
+    content: "​....";
+    content: "​...."/"ONLY";
+    alt: "ONLY";
+  }
+  62.9464285714%, 63.8382857143% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  63.8392857143%, 64.7311428571% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  64.7321428571%, 65.624% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  65.625%, 66.5168571429% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  66.5178571429%, 67.4097142857% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  67.4107142857%, 68.3025714286% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  68.3035714286%, 69.1954285714% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  69.1964285714%, 70.0882857143% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  70.0892857143%, 70.9811428571% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  70.9821428571%, 71.874% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  71.875%, 72.7668571429% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  72.7678571429%, 73.6597142857% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  73.6607142857%, 74.5525714286% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  74.5535714286%, 75.4454285714% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  75.4464285714%, 76.3382857143% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  76.3392857143%, 90.7132857143% {
+    content: "​.....";
+    content: "​....."/"ONLY";
+    alt: "ONLY";
+  }
+  90.7142857143%, 90.8025714286% {
+    content: "​....";
+    content: "​...."/"ONLY";
+    alt: "ONLY";
+  }
+  90.8035714286%, 90.8918571429% {
+    content: "​...";
+    content: "​..."/"ONLY";
+    alt: "ONLY";
+  }
+  90.8928571429%, 90.9811428571% {
+    content: "​..";
+    content: "​.."/"ONLY";
+    alt: "ONLY";
+  }
+  90.9821428571%, 91.0704285714% {
+    content: "​.";
+    content: "​."/"ONLY";
+    alt: "ONLY";
+  }
+  91.0714285714%, 100% {
+    content: "​";
+    content: "​"/"ONLY";
+    alt: "ONLY";
+  }
+}
+
+.rest-of-text {
+  font-family: "Orbitron", sans-serif;
+}
+.rest-of-text::before {
+  content: "​";
+  content: "​"/" online source \a for underwater basket \aweaving information...**";
+  alt: " online source \a for underwater basket \aweaving information...**";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-1 17.56s linear 1s 0 forwards, typed-1-final 12.2s linear 1s 1 forwards;
+}
+@keyframes typed-1-final {
+  0%, 0.5464480874% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  0.5474480874%, 1.0928961749% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  1.0938961749%, 1.6393442623% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  1.6403442623%, 2.1857923497% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  2.1867923497%, 2.7322404372% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  2.7332404372%, 3.2786885246% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  3.2796885246%, 3.825136612% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  3.826136612%, 4.3715846995% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  4.3725846995%, 4.9180327869% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  4.9190327869%, 5.4644808743% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  5.4654808743%, 6.0109289617% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  6.0119289617%, 6.5573770492% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  6.5583770492%, 7.1038251366% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  7.1048251366%, 7.650273224% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  7.651273224%, 8.1967213115% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  8.1977213115%, 8.7431693989% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  8.7441693989%, 9.2896174863% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  9.2906174863%, 9.8360655738% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  9.8370655738%, 10.3825136612% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  10.3835136612%, 10.9289617486% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  10.9299617486%, 11.4754098361% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  11.4764098361%, 12.0218579235% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  12.0228579235%, 12.5683060109% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  12.5693060109%, 13.1147540984% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  13.1157540984%, 13.6612021858% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  13.6622021858%, 14.2076502732% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  14.2086502732%, 14.7540983607% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  14.7550983607%, 15.3005464481% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  15.3015464481%, 15.8469945355% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  15.8479945355%, 16.393442623% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  16.394442623%, 16.9398907104% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  16.9408907104%, 17.4863387978% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  17.4873387978%, 18.0327868852% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  18.0337868852%, 18.5792349727% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  18.5802349727%, 19.1256830601% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  19.1266830601%, 19.6721311475% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  19.6731311475%, 20.218579235% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  20.219579235%, 20.7650273224% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  20.7660273224%, 21.3114754098% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  21.3124754098%, 21.8579234973% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  21.8589234973%, 22.4043715847% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  22.4053715847%, 22.9508196721% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  22.9518196721%, 23.4972677596% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  23.4982677596%, 24.043715847% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  24.044715847%, 24.5901639344% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  24.5911639344%, 25.1366120219% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  25.1376120219%, 25.6830601093% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  25.6840601093%, 26.2295081967% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  26.2305081967%, 26.7759562842% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  26.7769562842%, 27.3224043716% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  27.3234043716%, 27.868852459% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  27.869852459%, 28.4153005464% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  28.4163005464%, 28.9617486339% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  28.9627486339%, 29.5081967213% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  29.5091967213%, 30.0546448087% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  30.0556448087%, 30.6010928962% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  30.6020928962%, 31.1475409836% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  31.1485409836%, 31.693989071% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  31.694989071%, 32.2404371585% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  32.2414371585%, 32.7868852459% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  32.7878852459%, 33.3333333333% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  33.3343333333%, 33.8797814208% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  33.8807814208%, 34.4262295082% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  34.4272295082%, 34.9726775956% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  34.9736775956%, 35.5191256831% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  35.5201256831%, 36.0655737705% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  36.0665737705%, 36.6120218579% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  36.6130218579%, 37.1584699454% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  37.1594699454%, 37.7049180328% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  37.7059180328%, 38.2513661202% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  38.2523661202%, 38.7978142077% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  38.7988142077%, 39.3442622951% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  39.3452622951%, 39.8907103825% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  39.8917103825%, 40.4371584699% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  40.4381584699%, 40.9836065574% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  40.9846065574%, 41.5300546448% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  41.5310546448%, 42.0765027322% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  42.0775027322%, 42.6229508197% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  42.6239508197%, 43.1693989071% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  43.1703989071%, 43.7158469945% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  43.7168469945%, 44.262295082% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  44.263295082%, 44.8087431694% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  44.8097431694%, 45.3551912568% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  45.3561912568%, 45.9016393443% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  45.9026393443%, 46.4480874317% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  46.4490874317%, 46.9945355191% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  46.9955355191%, 47.5409836066% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  47.5419836066%, 48.087431694% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  48.088431694%, 48.6338797814% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  48.6348797814%, 49.1803278689% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  49.1813278689%, 49.7267759563% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  49.7277759563%, 50.2732240437% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  50.2742240437%, 50.8196721311% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  50.8206721311%, 51.3661202186% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  51.3671202186%, 51.912568306% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  51.913568306%, 52.4590163934% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  52.4600163934%, 53.0054644809% {
+    content: "​ o";
+    content: "​ o"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  53.0064644809%, 53.5519125683% {
+    content: "​ on";
+    content: "​ on"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  53.5529125683%, 54.0983606557% {
+    content: "​ onl";
+    content: "​ onl"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  54.0993606557%, 54.6448087432% {
+    content: "​ onli";
+    content: "​ onli"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  54.6458087432%, 55.1912568306% {
+    content: "​ onlin";
+    content: "​ onlin"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  55.1922568306%, 55.737704918% {
+    content: "​ online";
+    content: "​ online"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  55.738704918%, 56.2841530055% {
+    content: "​ online ";
+    content: "​ online "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  56.2851530055%, 56.8306010929% {
+    content: "​ online s";
+    content: "​ online s"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  56.8316010929%, 57.3770491803% {
+    content: "​ online so";
+    content: "​ online so"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  57.3780491803%, 57.9234972678% {
+    content: "​ online sou";
+    content: "​ online sou"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  57.9244972678%, 58.4699453552% {
+    content: "​ online sour";
+    content: "​ online sour"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  58.4709453552%, 59.0163934426% {
+    content: "​ online sourc";
+    content: "​ online sourc"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  59.0173934426%, 59.5628415301% {
+    content: "​ online source";
+    content: "​ online source"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  59.5638415301%, 60.1092896175% {
+    content: "​ online source ";
+    content: "​ online source "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  60.1102896175%, 60.6557377049% {
+    content: "​ online source \a";
+    content: "​ online source \a"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  60.6567377049%, 61.2021857923% {
+    content: "​ online source \a f";
+    content: "​ online source \a f"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  61.2031857923%, 61.7486338798% {
+    content: "​ online source \a fo";
+    content: "​ online source \a fo"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  61.7496338798%, 62.2950819672% {
+    content: "​ online source \a for";
+    content: "​ online source \a for"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  62.2960819672%, 62.8415300546% {
+    content: "​ online source \a for ";
+    content: "​ online source \a for "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  62.8425300546%, 63.3879781421% {
+    content: "​ online source \a for u";
+    content: "​ online source \a for u"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  63.3889781421%, 63.9344262295% {
+    content: "​ online source \a for un";
+    content: "​ online source \a for un"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  63.9354262295%, 64.4808743169% {
+    content: "​ online source \a for und";
+    content: "​ online source \a for und"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  64.4818743169%, 65.0273224044% {
+    content: "​ online source \a for unde";
+    content: "​ online source \a for unde"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  65.0283224044%, 65.5737704918% {
+    content: "​ online source \a for under";
+    content: "​ online source \a for under"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  65.5747704918%, 66.1202185792% {
+    content: "​ online source \a for underw";
+    content: "​ online source \a for underw"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  66.1212185792%, 66.6666666667% {
+    content: "​ online source \a for underwa";
+    content: "​ online source \a for underwa"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  66.6676666667%, 67.2131147541% {
+    content: "​ online source \a for underwat";
+    content: "​ online source \a for underwat"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  67.2141147541%, 67.7595628415% {
+    content: "​ online source \a for underwate";
+    content: "​ online source \a for underwate"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  67.7605628415%, 68.306010929% {
+    content: "​ online source \a for underwater";
+    content: "​ online source \a for underwater"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  68.307010929%, 68.8524590164% {
+    content: "​ online source \a for underwater ";
+    content: "​ online source \a for underwater "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  68.8534590164%, 69.3989071038% {
+    content: "​ online source \a for underwater b";
+    content: "​ online source \a for underwater b"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  69.3999071038%, 69.9453551913% {
+    content: "​ online source \a for underwater ba";
+    content: "​ online source \a for underwater ba"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  69.9463551913%, 70.4918032787% {
+    content: "​ online source \a for underwater bas";
+    content: "​ online source \a for underwater bas"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  70.4928032787%, 71.0382513661% {
+    content: "​ online source \a for underwater bask";
+    content: "​ online source \a for underwater bask"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  71.0392513661%, 71.5846994536% {
+    content: "​ online source \a for underwater baske";
+    content: "​ online source \a for underwater baske"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  71.5856994536%, 72.131147541% {
+    content: "​ online source \a for underwater basket";
+    content: "​ online source \a for underwater basket"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  72.132147541%, 72.6775956284% {
+    content: "​ online source \a for underwater basket ";
+    content: "​ online source \a for underwater basket "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  72.6785956284%, 73.2240437158% {
+    content: "​ online source \a for underwater basket \a";
+    content: "​ online source \a for underwater basket \a"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  73.2250437158%, 73.7704918033% {
+    content: "​ online source \a for underwater basket \aw";
+    content: "​ online source \a for underwater basket \aw"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  73.7714918033%, 74.3169398907% {
+    content: "​ online source \a for underwater basket \awe";
+    content: "​ online source \a for underwater basket \awe"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  74.3179398907%, 74.8633879781% {
+    content: "​ online source \a for underwater basket \awea";
+    content: "​ online source \a for underwater basket \awea"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  74.8643879781%, 75.4098360656% {
+    content: "​ online source \a for underwater basket \aweav";
+    content: "​ online source \a for underwater basket \aweav"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  75.4108360656%, 75.956284153% {
+    content: "​ online source \a for underwater basket \aweavi";
+    content: "​ online source \a for underwater basket \aweavi"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  75.957284153%, 76.5027322404% {
+    content: "​ online source \a for underwater basket \aweavin";
+    content: "​ online source \a for underwater basket \aweavin"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  76.5037322404%, 77.0491803279% {
+    content: "​ online source \a for underwater basket \aweaving";
+    content: "​ online source \a for underwater basket \aweaving"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  77.0501803279%, 77.5956284153% {
+    content: "​ online source \a for underwater basket \aweaving ";
+    content: "​ online source \a for underwater basket \aweaving "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  77.5966284153%, 78.1420765027% {
+    content: "​ online source \a for underwater basket \aweaving i";
+    content: "​ online source \a for underwater basket \aweaving i"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  78.1430765027%, 78.6885245902% {
+    content: "​ online source \a for underwater basket \aweaving in";
+    content: "​ online source \a for underwater basket \aweaving in"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  78.6895245902%, 79.2349726776% {
+    content: "​ online source \a for underwater basket \aweaving inf";
+    content: "​ online source \a for underwater basket \aweaving inf"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  79.2359726776%, 79.781420765% {
+    content: "​ online source \a for underwater basket \aweaving info";
+    content: "​ online source \a for underwater basket \aweaving info"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  79.782420765%, 80.3278688525% {
+    content: "​ online source \a for underwater basket \aweaving infor";
+    content: "​ online source \a for underwater basket \aweaving infor"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  80.3288688525%, 80.8743169399% {
+    content: "​ online source \a for underwater basket \aweaving inform";
+    content: "​ online source \a for underwater basket \aweaving inform"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  80.8753169399%, 81.4207650273% {
+    content: "​ online source \a for underwater basket \aweaving informa";
+    content: "​ online source \a for underwater basket \aweaving informa"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  81.4217650273%, 81.9672131148% {
+    content: "​ online source \a for underwater basket \aweaving informat";
+    content: "​ online source \a for underwater basket \aweaving informat"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  81.9682131148%, 82.5136612022% {
+    content: "​ online source \a for underwater basket \aweaving informati";
+    content: "​ online source \a for underwater basket \aweaving informati"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  82.5146612022%, 83.0601092896% {
+    content: "​ online source \a for underwater basket \aweaving informatio";
+    content: "​ online source \a for underwater basket \aweaving informatio"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  83.0611092896%, 83.606557377% {
+    content: "​ online source \a for underwater basket \aweaving information";
+    content: "​ online source \a for underwater basket \aweaving information"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  83.607557377%, 84.1530054645% {
+    content: "​ online source \a for underwater basket \aweaving information.";
+    content: "​ online source \a for underwater basket \aweaving information."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  84.1540054645%, 84.6994535519% {
+    content: "​ online source \a for underwater basket \aweaving information..";
+    content: "​ online source \a for underwater basket \aweaving information.."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  84.7004535519%, 85.2459016393% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  85.2469016393%, 85.7923497268% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  85.7933497268%, 86.3387978142% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  86.3397978142%, 86.8852459016% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  86.8862459016%, 87.4316939891% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  87.4326939891%, 87.9781420765% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  87.9791420765%, 88.5245901639% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  88.5255901639%, 89.0710382514% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  89.0720382514%, 89.6174863388% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  89.6184863388%, 90.1639344262% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  90.1649344262%, 90.7103825137% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  90.7113825137%, 91.2568306011% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  91.2578306011%, 91.8032786885% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  91.8042786885%, 92.349726776% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  92.350726776%, 92.8961748634% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  92.8971748634%, 93.4426229508% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  93.4436229508%, 93.9890710383% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  93.9900710383%, 94.5355191257% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  94.5365191257%, 95.0819672131% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  95.0829672131%, 95.6284153005% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  95.6294153005%, 96.174863388% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  96.175863388%, 96.7213114754% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  96.7223114754%, 97.2677595628% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  97.2687595628%, 97.8142076503% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  97.8152076503%, 98.3606557377% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  98.3616557377%, 98.9071038251% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  98.9081038251%, 99.4535519126% {
+    content: "​ online source \a for underwater basket \aweaving information...*";
+    content: "​ online source \a for underwater basket \aweaving information...*"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  99.4545519126%, 100% {
+    content: "​ online source \a for underwater basket \aweaving information...**";
+    content: "​ online source \a for underwater basket \aweaving information...**"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+}
+.rest-of-text::after {
   content: "​";
   position: relative;
   display: inline-block;
   padding-right: 2px;
   border-right: 2px solid currentColor;
   white-space: nowrap;
-  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+  animation: typed-1-caret 0.75s linear 1s infinite forwards;
 }
-@keyframes typed-0 {
-  0%, 0.7635259939% {
-    content: "​T";
-    content: "​T"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  0.7645259939%, 1.5280519878% {
-    content: "​Th";
-    content: "​Th"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  1.5290519878%, 2.2925779817% {
-    content: "​The";
-    content: "​The"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  2.2935779817%, 3.0571039755% {
-    content: "​The ";
-    content: "​The "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  3.0581039755%, 3.8216299694% {
-    content: "​The #";
-    content: "​The #"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  3.8226299694%, 4.5861559633% {
-    content: "​The #1";
-    content: "​The #1"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  4.5871559633%, 5.3506819572% {
-    content: "​The #1 ";
-    content: "​The #1 "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  5.3516819572%, 6.1152079511% {
-    content: "​The #1 s";
-    content: "​The #1 s"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  6.1162079511%, 6.879733945% {
-    content: "​The #1 so";
-    content: "​The #1 so"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  6.880733945%, 7.6442599388% {
-    content: "​The #1 sou";
-    content: "​The #1 sou"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  7.6452599388%, 8.4087859327% {
-    content: "​The #1 sour";
-    content: "​The #1 sour"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  8.4097859327%, 9.1733119266% {
-    content: "​The #1 sourc";
-    content: "​The #1 sourc"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  9.1743119266%, 9.9378379205% {
-    content: "​The #1 source";
-    content: "​The #1 source"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  9.9388379205%, 10.7023639144% {
-    content: "​The #1 source ";
-    content: "​The #1 source "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  10.7033639144%, 11.4668899083% {
-    content: "​The #1 source f";
-    content: "​The #1 source f"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  11.4678899083%, 12.2314159021% {
-    content: "​The #1 source fo";
-    content: "​The #1 source fo"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  12.2324159021%, 12.995941896% {
-    content: "​The #1 source for";
-    content: "​The #1 source for"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  12.996941896%, 13.7604678899% {
-    content: "​The #1 source for ";
-    content: "​The #1 source for "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  13.7614678899%, 14.5249938838% {
-    content: "​The #1 source for \a";
-    content: "​The #1 source for \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  14.5259938838%, 15.2895198777% {
-    content: "​The #1 source for \au";
-    content: "​The #1 source for \au"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  15.2905198777%, 16.0540458716% {
-    content: "​The #1 source for \aun";
-    content: "​The #1 source for \aun"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  16.0550458716%, 16.8185718654% {
-    content: "​The #1 source for \aund";
-    content: "​The #1 source for \aund"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  16.8195718654%, 17.5830978593% {
-    content: "​The #1 source for \aunde";
-    content: "​The #1 source for \aunde"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  17.5840978593%, 18.3476238532% {
-    content: "​The #1 source for \aunder";
-    content: "​The #1 source for \aunder"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  18.3486238532%, 19.1121498471% {
-    content: "​The #1 source for \aunderw";
-    content: "​The #1 source for \aunderw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  19.1131498471%, 19.876675841% {
-    content: "​The #1 source for \aunderwa";
-    content: "​The #1 source for \aunderwa"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  19.877675841%, 20.6412018349% {
-    content: "​The #1 source for \aunderwat";
-    content: "​The #1 source for \aunderwat"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  20.6422018349%, 21.4057278287% {
-    content: "​The #1 source for \aunderwate";
-    content: "​The #1 source for \aunderwate"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  21.4067278287%, 22.1702538226% {
-    content: "​The #1 source for \aunderwater";
-    content: "​The #1 source for \aunderwater"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  22.1712538226%, 22.9347798165% {
-    content: "​The #1 source for \aunderwater ";
-    content: "​The #1 source for \aunderwater "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  22.9357798165%, 23.6993058104% {
-    content: "​The #1 source for \aunderwater b";
-    content: "​The #1 source for \aunderwater b"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  23.7003058104%, 24.4638318043% {
-    content: "​The #1 source for \aunderwater ba";
-    content: "​The #1 source for \aunderwater ba"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  24.4648318043%, 25.2283577982% {
-    content: "​The #1 source for \aunderwater bas";
-    content: "​The #1 source for \aunderwater bas"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  25.2293577982%, 25.992883792% {
-    content: "​The #1 source for \aunderwater bask";
-    content: "​The #1 source for \aunderwater bask"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  25.993883792%, 26.7574097859% {
-    content: "​The #1 source for \aunderwater baske";
-    content: "​The #1 source for \aunderwater baske"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  26.7584097859%, 27.5219357798% {
-    content: "​The #1 source for \aunderwater basket";
-    content: "​The #1 source for \aunderwater basket"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  27.5229357798%, 28.2864617737% {
-    content: "​The #1 source for \aunderwater basket ";
-    content: "​The #1 source for \aunderwater basket "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  28.2874617737%, 29.0509877676% {
-    content: "​The #1 source for \aunderwater basket \a";
-    content: "​The #1 source for \aunderwater basket \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  29.0519877676%, 29.8155137615% {
-    content: "​The #1 source for \aunderwater basket \aw";
-    content: "​The #1 source for \aunderwater basket \aw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  29.8165137615%, 30.5800397554% {
-    content: "​The #1 source for \aunderwater basket \awe";
-    content: "​The #1 source for \aunderwater basket \awe"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  30.5810397554%, 31.3445657492% {
-    content: "​The #1 source for \aunderwater basket \awea";
-    content: "​The #1 source for \aunderwater basket \awea"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  31.3455657492%, 32.1090917431% {
-    content: "​The #1 source for \aunderwater basket \aweav";
-    content: "​The #1 source for \aunderwater basket \aweav"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  32.1100917431%, 32.873617737% {
-    content: "​The #1 source for \aunderwater basket \aweavi";
-    content: "​The #1 source for \aunderwater basket \aweavi"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  32.874617737%, 33.6381437309% {
-    content: "​The #1 source for \aunderwater basket \aweavin";
-    content: "​The #1 source for \aunderwater basket \aweavin"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  33.6391437309%, 34.4026697248% {
-    content: "​The #1 source for \aunderwater basket \aweaving";
-    content: "​The #1 source for \aunderwater basket \aweaving"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  34.4036697248%, 35.1671957187% {
-    content: "​The #1 source for \aunderwater basket \aweaving ";
-    content: "​The #1 source for \aunderwater basket \aweaving "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  35.1681957187%, 35.9317217125% {
-    content: "​The #1 source for \aunderwater basket \aweaving t";
-    content: "​The #1 source for \aunderwater basket \aweaving t"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  35.9327217125%, 36.6962477064% {
-    content: "​The #1 source for \aunderwater basket \aweaving tu";
-    content: "​The #1 source for \aunderwater basket \aweaving tu"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  36.6972477064%, 37.4607737003% {
-    content: "​The #1 source for \aunderwater basket \aweaving tut";
-    content: "​The #1 source for \aunderwater basket \aweaving tut"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  37.4617737003%, 38.2252996942% {
-    content: "​The #1 source for \aunderwater basket \aweaving tuto";
-    content: "​The #1 source for \aunderwater basket \aweaving tuto"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  38.2262996942%, 38.9898256881% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutor";
-    content: "​The #1 source for \aunderwater basket \aweaving tutor"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  38.9908256881%, 39.754351682% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutori";
-    content: "​The #1 source for \aunderwater basket \aweaving tutori"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  39.755351682%, 40.5188776758% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutoria";
-    content: "​The #1 source for \aunderwater basket \aweaving tutoria"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  40.5198776758%, 41.2834036697% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorial";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorial"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  41.2844036697%, 42.0479296636% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  42.0489296636%, 58.7145963303% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials.";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials."/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  58.7155963303%, 59.3262171254% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorials"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  59.3272171254%, 59.9378379205% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutorial";
-    content: "​The #1 source for \aunderwater basket \aweaving tutorial"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  59.9388379205%, 60.5494587156% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutoria";
-    content: "​The #1 source for \aunderwater basket \aweaving tutoria"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  60.5504587156%, 61.1610795107% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutori";
-    content: "​The #1 source for \aunderwater basket \aweaving tutori"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  61.1620795107%, 61.7727003058% {
-    content: "​The #1 source for \aunderwater basket \aweaving tutor";
-    content: "​The #1 source for \aunderwater basket \aweaving tutor"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  61.7737003058%, 62.3843211009% {
-    content: "​The #1 source for \aunderwater basket \aweaving tuto";
-    content: "​The #1 source for \aunderwater basket \aweaving tuto"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  62.3853211009%, 62.995941896% {
-    content: "​The #1 source for \aunderwater basket \aweaving tut";
-    content: "​The #1 source for \aunderwater basket \aweaving tut"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  62.996941896%, 63.6075626911% {
-    content: "​The #1 source for \aunderwater basket \aweaving tu";
-    content: "​The #1 source for \aunderwater basket \aweaving tu"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  63.6085626911%, 64.2191834862% {
-    content: "​The #1 source for \aunderwater basket \aweaving t";
-    content: "​The #1 source for \aunderwater basket \aweaving t"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  64.2201834862%, 64.8308042813% {
-    content: "​The #1 source for \aunderwater basket \aweaving ";
-    content: "​The #1 source for \aunderwater basket \aweaving "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  64.8318042813%, 65.4424250765% {
-    content: "​The #1 source for \aunderwater basket \aweaving";
-    content: "​The #1 source for \aunderwater basket \aweaving"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  65.4434250765%, 66.0540458716% {
-    content: "​The #1 source for \aunderwater basket \aweavin";
-    content: "​The #1 source for \aunderwater basket \aweavin"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  66.0550458716%, 66.6656666667% {
-    content: "​The #1 source for \aunderwater basket \aweavi";
-    content: "​The #1 source for \aunderwater basket \aweavi"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  66.6666666667%, 67.2772874618% {
-    content: "​The #1 source for \aunderwater basket \aweav";
-    content: "​The #1 source for \aunderwater basket \aweav"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  67.2782874618%, 67.8889082569% {
-    content: "​The #1 source for \aunderwater basket \awea";
-    content: "​The #1 source for \aunderwater basket \awea"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  67.8899082569%, 68.500529052% {
-    content: "​The #1 source for \aunderwater basket \awe";
-    content: "​The #1 source for \aunderwater basket \awe"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  68.501529052%, 69.1121498471% {
-    content: "​The #1 source for \aunderwater basket \aw";
-    content: "​The #1 source for \aunderwater basket \aw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  69.1131498471%, 69.7237706422% {
-    content: "​The #1 source for \aunderwater basket \a";
-    content: "​The #1 source for \aunderwater basket \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  69.7247706422%, 70.3353914373% {
-    content: "​The #1 source for \aunderwater basket ";
-    content: "​The #1 source for \aunderwater basket "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  70.3363914373%, 70.9470122324% {
-    content: "​The #1 source for \aunderwater basket";
-    content: "​The #1 source for \aunderwater basket"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  70.9480122324%, 71.5586330275% {
-    content: "​The #1 source for \aunderwater baske";
-    content: "​The #1 source for \aunderwater baske"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  71.5596330275%, 72.1702538226% {
-    content: "​The #1 source for \aunderwater bask";
-    content: "​The #1 source for \aunderwater bask"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  72.1712538226%, 72.7818746177% {
-    content: "​The #1 source for \aunderwater bas";
-    content: "​The #1 source for \aunderwater bas"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  72.7828746177%, 73.3934954128% {
-    content: "​The #1 source for \aunderwater ba";
-    content: "​The #1 source for \aunderwater ba"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  73.3944954128%, 74.005116208% {
-    content: "​The #1 source for \aunderwater b";
-    content: "​The #1 source for \aunderwater b"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  74.006116208%, 74.6167370031% {
-    content: "​The #1 source for \aunderwater ";
-    content: "​The #1 source for \aunderwater "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  74.6177370031%, 75.2283577982% {
-    content: "​The #1 source for \aunderwater";
-    content: "​The #1 source for \aunderwater"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  75.2293577982%, 75.8399785933% {
-    content: "​The #1 source for \aunderwate";
-    content: "​The #1 source for \aunderwate"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  75.8409785933%, 76.4515993884% {
-    content: "​The #1 source for \aunderwat";
-    content: "​The #1 source for \aunderwat"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  76.4525993884%, 77.0632201835% {
-    content: "​The #1 source for \aunderwa";
-    content: "​The #1 source for \aunderwa"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  77.0642201835%, 77.6748409786% {
-    content: "​The #1 source for \aunderw";
-    content: "​The #1 source for \aunderw"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  77.6758409786%, 78.2864617737% {
-    content: "​The #1 source for \aunder";
-    content: "​The #1 source for \aunder"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  78.2874617737%, 78.8980825688% {
-    content: "​The #1 source for \aunde";
-    content: "​The #1 source for \aunde"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  78.8990825688%, 79.5097033639% {
-    content: "​The #1 source for \aund";
-    content: "​The #1 source for \aund"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  79.5107033639%, 80.121324159% {
-    content: "​The #1 source for \aun";
-    content: "​The #1 source for \aun"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  80.122324159%, 80.7329449541% {
-    content: "​The #1 source for \au";
-    content: "​The #1 source for \au"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  80.7339449541%, 81.3445657492% {
-    content: "​The #1 source for \a";
-    content: "​The #1 source for \a"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  81.3455657492%, 81.9561865443% {
-    content: "​The #1 source for ";
-    content: "​The #1 source for "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  81.9571865443%, 82.5678073394% {
-    content: "​The #1 source for";
-    content: "​The #1 source for"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  82.5688073394%, 83.1794281346% {
-    content: "​The #1 source fo";
-    content: "​The #1 source fo"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  83.1804281346%, 83.7910489297% {
-    content: "​The #1 source f";
-    content: "​The #1 source f"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  83.7920489297%, 84.4026697248% {
-    content: "​The #1 source ";
-    content: "​The #1 source "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  84.4036697248%, 85.0142905199% {
-    content: "​The #1 source";
-    content: "​The #1 source"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  85.0152905199%, 85.625911315% {
-    content: "​The #1 sourc";
-    content: "​The #1 sourc"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  85.626911315%, 86.2375321101% {
-    content: "​The #1 sour";
-    content: "​The #1 sour"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  86.2385321101%, 86.8491529052% {
-    content: "​The #1 sou";
-    content: "​The #1 sou"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  86.8501529052%, 87.4607737003% {
-    content: "​The #1 so";
-    content: "​The #1 so"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  87.4617737003%, 88.0723944954% {
-    content: "​The #1 s";
-    content: "​The #1 s"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  88.0733944954%, 88.6840152905% {
-    content: "​The #1 ";
-    content: "​The #1 "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  88.6850152905%, 89.2956360856% {
-    content: "​The #1";
-    content: "​The #1"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  89.2966360856%, 89.9072568807% {
-    content: "​The #";
-    content: "​The #"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  89.9082568807%, 90.5188776758% {
-    content: "​The ";
-    content: "​The "/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  90.5198776758%, 91.1304984709% {
-    content: "​The";
-    content: "​The"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  91.1314984709%, 91.7421192661% {
-    content: "​Th";
-    content: "​Th"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  91.7431192661%, 92.3537400612% {
-    content: "​T";
-    content: "​T"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
-  }
-  92.3547400612%, 100% {
+@keyframes typed-1 {
+  0%, 0.3786507213% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  0.3796507213%, 0.7583014427% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  0.7593014427%, 1.137952164% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  1.138952164%, 1.5176028853% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  1.5186028853%, 1.8972536067% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  1.8982536067%, 2.276904328% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  2.277904328%, 2.6565550494% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  2.6575550494%, 3.0362057707% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  3.0372057707%, 3.415856492% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  3.416856492%, 3.7955072134% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  3.7965072134%, 4.1751579347% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  4.1761579347%, 4.554808656% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  4.555808656%, 4.9344593774% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  4.9354593774%, 5.3141100987% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  5.3151100987%, 5.69376082% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  5.69476082%, 6.0734115414% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  6.0744115414%, 6.4530622627% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  6.4540622627%, 6.8327129841% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  6.8337129841%, 7.2123637054% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  7.2133637054%, 7.5920144267% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  7.5930144267%, 7.9716651481% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  7.9726651481%, 8.3513158694% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  8.3523158694%, 8.7309665907% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  8.7319665907%, 9.1106173121% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  9.1116173121%, 9.4902680334% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  9.4912680334%, 9.8699187547% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  9.8709187547%, 10.2495694761% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  10.2505694761%, 10.6292201974% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  10.6302201974%, 11.0088709188% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  11.0098709188%, 11.3885216401% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  11.3895216401%, 11.7681723614% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  11.7691723614%, 12.1478230828% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  12.1488230828%, 12.5274738041% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  12.5284738041%, 12.9071245254% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  12.9081245254%, 13.2867752468% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  13.2877752468%, 13.6664259681% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  13.6674259681%, 14.0460766894% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  14.0470766894%, 14.4257274108% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  14.4267274108%, 14.8053781321% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  14.8063781321%, 15.1850288535% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  15.1860288535%, 15.5646795748% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  15.5656795748%, 15.9443302961% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  15.9453302961%, 16.3239810175% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  16.3249810175%, 16.7036317388% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  16.7046317388%, 17.0832824601% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  17.0842824601%, 17.4629331815% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  17.4639331815%, 17.8425839028% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  17.8435839028%, 18.2222346241% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  18.2232346241%, 18.6018853455% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  18.6028853455%, 18.9815360668% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  18.9825360668%, 19.3611867882% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  19.3621867882%, 19.7408375095% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  19.7418375095%, 20.1204882308% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  20.1214882308%, 20.5001389522% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  20.5011389522%, 20.8797896735% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  20.8807896735%, 21.2594403948% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  21.2604403948%, 21.6390911162% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  21.6400911162%, 22.0187418375% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  22.0197418375%, 22.3983925588% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  22.3993925588%, 22.7780432802% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  22.7790432802%, 23.1576940015% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  23.1586940015%, 23.5373447229% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  23.5383447229%, 23.9169954442% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  23.9179954442%, 24.2966461655% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  24.2976461655%, 24.6762968869% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  24.6772968869%, 25.0559476082% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  25.0569476082%, 25.4355983295% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  25.4365983295%, 25.8152490509% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  25.8162490509%, 26.1948997722% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  26.1958997722%, 26.5745504935% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  26.5755504935%, 26.9542012149% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  26.9552012149%, 27.3338519362% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  27.3348519362%, 27.7135026576% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  27.7145026576%, 28.0931533789% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  28.0941533789%, 28.4728041002% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  28.4738041002%, 28.8524548216% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  28.8534548216%, 29.2321055429% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  29.2331055429%, 29.6117562642% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  29.6127562642%, 29.9914069856% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  29.9924069856%, 30.3710577069% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  30.3720577069%, 30.7507084282% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  30.7517084282%, 31.1303591496% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  31.1313591496%, 31.5100098709% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  31.5110098709%, 31.8896605923% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  31.8906605923%, 32.2693113136% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  32.2703113136%, 32.6489620349% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  32.6499620349%, 33.0286127563% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  33.0296127563%, 33.4082634776% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  33.4092634776%, 33.7879141989% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  33.7889141989%, 34.1675649203% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  34.1685649203%, 34.5472156416% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  34.5482156416%, 34.9268663629% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  34.9278663629%, 35.3065170843% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  35.3075170843%, 35.6861678056% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  35.6871678056%, 36.065818527% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  36.066818527%, 36.4454692483% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  36.4464692483%, 36.8251199696% {
+    content: "​ o";
+    content: "​ o"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  36.8261199696%, 37.204770691% {
+    content: "​ on";
+    content: "​ on"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  37.205770691%, 37.5844214123% {
+    content: "​ onl";
+    content: "​ onl"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  37.5854214123%, 37.9640721336% {
+    content: "​ onli";
+    content: "​ onli"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  37.9650721336%, 38.343722855% {
+    content: "​ onlin";
+    content: "​ onlin"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  38.344722855%, 38.7233735763% {
+    content: "​ online";
+    content: "​ online"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  38.7243735763%, 39.1030242976% {
+    content: "​ online ";
+    content: "​ online "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  39.1040242976%, 39.482675019% {
+    content: "​ online s";
+    content: "​ online s"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  39.483675019%, 39.8623257403% {
+    content: "​ online so";
+    content: "​ online so"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  39.8633257403%, 40.2419764617% {
+    content: "​ online sou";
+    content: "​ online sou"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  40.2429764617%, 40.621627183% {
+    content: "​ online sour";
+    content: "​ online sour"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  40.622627183%, 41.0012779043% {
+    content: "​ online sourc";
+    content: "​ online sourc"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  41.0022779043%, 41.3809286257% {
+    content: "​ online source";
+    content: "​ online source"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  41.3819286257%, 41.760579347% {
+    content: "​ online source ";
+    content: "​ online source "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  41.761579347%, 42.1402300683% {
+    content: "​ online source \a";
+    content: "​ online source \a"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  42.1412300683%, 42.5198807897% {
+    content: "​ online source \a f";
+    content: "​ online source \a f"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  42.5208807897%, 42.899531511% {
+    content: "​ online source \a fo";
+    content: "​ online source \a fo"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  42.900531511%, 43.2791822323% {
+    content: "​ online source \a for";
+    content: "​ online source \a for"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  43.2801822323%, 43.6588329537% {
+    content: "​ online source \a for ";
+    content: "​ online source \a for "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  43.6598329537%, 44.038483675% {
+    content: "​ online source \a for u";
+    content: "​ online source \a for u"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  44.039483675%, 44.4181343964% {
+    content: "​ online source \a for un";
+    content: "​ online source \a for un"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  44.4191343964%, 44.7977851177% {
+    content: "​ online source \a for und";
+    content: "​ online source \a for und"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  44.7987851177%, 45.177435839% {
+    content: "​ online source \a for unde";
+    content: "​ online source \a for unde"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  45.178435839%, 45.5570865604% {
+    content: "​ online source \a for under";
+    content: "​ online source \a for under"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  45.5580865604%, 45.9367372817% {
+    content: "​ online source \a for underw";
+    content: "​ online source \a for underw"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  45.9377372817%, 46.316388003% {
+    content: "​ online source \a for underwa";
+    content: "​ online source \a for underwa"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  46.317388003%, 46.6960387244% {
+    content: "​ online source \a for underwat";
+    content: "​ online source \a for underwat"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  46.6970387244%, 47.0756894457% {
+    content: "​ online source \a for underwate";
+    content: "​ online source \a for underwate"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  47.0766894457%, 47.455340167% {
+    content: "​ online source \a for underwater";
+    content: "​ online source \a for underwater"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  47.456340167%, 47.8349908884% {
+    content: "​ online source \a for underwater ";
+    content: "​ online source \a for underwater "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  47.8359908884%, 48.2146416097% {
+    content: "​ online source \a for underwater b";
+    content: "​ online source \a for underwater b"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  48.2156416097%, 48.5942923311% {
+    content: "​ online source \a for underwater ba";
+    content: "​ online source \a for underwater ba"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  48.5952923311%, 48.9739430524% {
+    content: "​ online source \a for underwater bas";
+    content: "​ online source \a for underwater bas"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  48.9749430524%, 49.3535937737% {
+    content: "​ online source \a for underwater bask";
+    content: "​ online source \a for underwater bask"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  49.3545937737%, 49.7332444951% {
+    content: "​ online source \a for underwater baske";
+    content: "​ online source \a for underwater baske"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  49.7342444951%, 50.1128952164% {
+    content: "​ online source \a for underwater basket";
+    content: "​ online source \a for underwater basket"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  50.1138952164%, 50.4925459377% {
+    content: "​ online source \a for underwater basket ";
+    content: "​ online source \a for underwater basket "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  50.4935459377%, 50.8721966591% {
+    content: "​ online source \a for underwater basket \a";
+    content: "​ online source \a for underwater basket \a"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  50.8731966591%, 51.2518473804% {
+    content: "​ online source \a for underwater basket \aw";
+    content: "​ online source \a for underwater basket \aw"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  51.2528473804%, 51.6314981017% {
+    content: "​ online source \a for underwater basket \awe";
+    content: "​ online source \a for underwater basket \awe"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  51.6324981017%, 52.0111488231% {
+    content: "​ online source \a for underwater basket \awea";
+    content: "​ online source \a for underwater basket \awea"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  52.0121488231%, 52.3907995444% {
+    content: "​ online source \a for underwater basket \aweav";
+    content: "​ online source \a for underwater basket \aweav"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  52.3917995444%, 52.7704502658% {
+    content: "​ online source \a for underwater basket \aweavi";
+    content: "​ online source \a for underwater basket \aweavi"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  52.7714502658%, 53.1501009871% {
+    content: "​ online source \a for underwater basket \aweavin";
+    content: "​ online source \a for underwater basket \aweavin"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  53.1511009871%, 53.5297517084% {
+    content: "​ online source \a for underwater basket \aweaving";
+    content: "​ online source \a for underwater basket \aweaving"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  53.5307517084%, 53.9094024298% {
+    content: "​ online source \a for underwater basket \aweaving ";
+    content: "​ online source \a for underwater basket \aweaving "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  53.9104024298%, 54.2890531511% {
+    content: "​ online source \a for underwater basket \aweaving i";
+    content: "​ online source \a for underwater basket \aweaving i"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  54.2900531511%, 54.6687038724% {
+    content: "​ online source \a for underwater basket \aweaving in";
+    content: "​ online source \a for underwater basket \aweaving in"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  54.6697038724%, 55.0483545938% {
+    content: "​ online source \a for underwater basket \aweaving inf";
+    content: "​ online source \a for underwater basket \aweaving inf"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  55.0493545938%, 55.4280053151% {
+    content: "​ online source \a for underwater basket \aweaving info";
+    content: "​ online source \a for underwater basket \aweaving info"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  55.4290053151%, 55.8076560364% {
+    content: "​ online source \a for underwater basket \aweaving infor";
+    content: "​ online source \a for underwater basket \aweaving infor"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  55.8086560364%, 56.1873067578% {
+    content: "​ online source \a for underwater basket \aweaving inform";
+    content: "​ online source \a for underwater basket \aweaving inform"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  56.1883067578%, 56.5669574791% {
+    content: "​ online source \a for underwater basket \aweaving informa";
+    content: "​ online source \a for underwater basket \aweaving informa"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  56.5679574791%, 56.9466082005% {
+    content: "​ online source \a for underwater basket \aweaving informat";
+    content: "​ online source \a for underwater basket \aweaving informat"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  56.9476082005%, 57.3262589218% {
+    content: "​ online source \a for underwater basket \aweaving informati";
+    content: "​ online source \a for underwater basket \aweaving informati"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  57.3272589218%, 57.7059096431% {
+    content: "​ online source \a for underwater basket \aweaving informatio";
+    content: "​ online source \a for underwater basket \aweaving informatio"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  57.7069096431%, 58.0855603645% {
+    content: "​ online source \a for underwater basket \aweaving information";
+    content: "​ online source \a for underwater basket \aweaving information"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  58.0865603645%, 58.4652110858% {
+    content: "​ online source \a for underwater basket \aweaving information.";
+    content: "​ online source \a for underwater basket \aweaving information."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  58.4662110858%, 58.8448618071% {
+    content: "​ online source \a for underwater basket \aweaving information..";
+    content: "​ online source \a for underwater basket \aweaving information.."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  58.8458618071%, 59.2245125285% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  59.2255125285%, 59.6041632498% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  59.6051632498%, 59.9838139711% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  59.9848139711%, 60.3634646925% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  60.3644646925%, 60.7431154138% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  60.7441154138%, 61.1227661352% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  61.1237661352%, 61.5024168565% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  61.5034168565%, 61.8820675778% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  61.8830675778%, 62.2617182992% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  62.2627182992%, 62.6413690205% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  62.6423690205%, 63.0210197418% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  63.0220197418%, 63.4006704632% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  63.4016704632%, 63.7803211845% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  63.7813211845%, 64.1599719058% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  64.1609719058%, 64.5396226272% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  64.5406226272%, 64.9192733485% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  64.9202733485%, 65.2989240699% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  65.2999240699%, 65.6785747912% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  65.6795747912%, 66.0582255125% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  66.0592255125%, 66.4378762339% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  66.4388762339%, 66.8175269552% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  66.8185269552%, 67.1971776765% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  67.1981776765%, 67.5768283979% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  67.5778283979%, 67.9564791192% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  67.9574791192%, 68.3361298405% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  68.3371298405%, 68.7157805619% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  68.7167805619%, 69.0954312832% {
+    content: "​ online source \a for underwater basket \aweaving information...*";
+    content: "​ online source \a for underwater basket \aweaving information...*"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  69.0964312832%, 77.3718170084% {
+    content: "​ online source \a for underwater basket \aweaving information...**";
+    content: "​ online source \a for underwater basket \aweaving information...**"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  77.3728170084%, 77.6755375854% {
+    content: "​ online source \a for underwater basket \aweaving information...*";
+    content: "​ online source \a for underwater basket \aweaving information...*"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  77.6765375854%, 77.9792581625% {
+    content: "​ online source \a for underwater basket \aweaving information...";
+    content: "​ online source \a for underwater basket \aweaving information..."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  77.9802581625%, 78.2829787396% {
+    content: "​ online source \a for underwater basket \aweaving information..";
+    content: "​ online source \a for underwater basket \aweaving information.."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  78.2839787396%, 78.5866993166% {
+    content: "​ online source \a for underwater basket \aweaving information.";
+    content: "​ online source \a for underwater basket \aweaving information."/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  78.5876993166%, 78.8904198937% {
+    content: "​ online source \a for underwater basket \aweaving information";
+    content: "​ online source \a for underwater basket \aweaving information"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  78.8914198937%, 79.1941404708% {
+    content: "​ online source \a for underwater basket \aweaving informatio";
+    content: "​ online source \a for underwater basket \aweaving informatio"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  79.1951404708%, 79.4978610478% {
+    content: "​ online source \a for underwater basket \aweaving informati";
+    content: "​ online source \a for underwater basket \aweaving informati"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  79.4988610478%, 79.8015816249% {
+    content: "​ online source \a for underwater basket \aweaving informat";
+    content: "​ online source \a for underwater basket \aweaving informat"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  79.8025816249%, 80.105302202% {
+    content: "​ online source \a for underwater basket \aweaving informa";
+    content: "​ online source \a for underwater basket \aweaving informa"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  80.106302202%, 80.409022779% {
+    content: "​ online source \a for underwater basket \aweaving inform";
+    content: "​ online source \a for underwater basket \aweaving inform"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  80.410022779%, 80.7127433561% {
+    content: "​ online source \a for underwater basket \aweaving infor";
+    content: "​ online source \a for underwater basket \aweaving infor"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  80.7137433561%, 81.0164639332% {
+    content: "​ online source \a for underwater basket \aweaving info";
+    content: "​ online source \a for underwater basket \aweaving info"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  81.0174639332%, 81.3201845103% {
+    content: "​ online source \a for underwater basket \aweaving inf";
+    content: "​ online source \a for underwater basket \aweaving inf"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  81.3211845103%, 81.6239050873% {
+    content: "​ online source \a for underwater basket \aweaving in";
+    content: "​ online source \a for underwater basket \aweaving in"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  81.6249050873%, 81.9276256644% {
+    content: "​ online source \a for underwater basket \aweaving i";
+    content: "​ online source \a for underwater basket \aweaving i"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  81.9286256644%, 82.2313462415% {
+    content: "​ online source \a for underwater basket \aweaving ";
+    content: "​ online source \a for underwater basket \aweaving "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  82.2323462415%, 82.5350668185% {
+    content: "​ online source \a for underwater basket \aweaving";
+    content: "​ online source \a for underwater basket \aweaving"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  82.5360668185%, 82.8387873956% {
+    content: "​ online source \a for underwater basket \aweavin";
+    content: "​ online source \a for underwater basket \aweavin"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  82.8397873956%, 83.1425079727% {
+    content: "​ online source \a for underwater basket \aweavi";
+    content: "​ online source \a for underwater basket \aweavi"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  83.1435079727%, 83.4462285497% {
+    content: "​ online source \a for underwater basket \aweav";
+    content: "​ online source \a for underwater basket \aweav"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  83.4472285497%, 83.7499491268% {
+    content: "​ online source \a for underwater basket \awea";
+    content: "​ online source \a for underwater basket \awea"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  83.7509491268%, 84.0536697039% {
+    content: "​ online source \a for underwater basket \awe";
+    content: "​ online source \a for underwater basket \awe"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  84.0546697039%, 84.3573902809% {
+    content: "​ online source \a for underwater basket \aw";
+    content: "​ online source \a for underwater basket \aw"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  84.3583902809%, 84.661110858% {
+    content: "​ online source \a for underwater basket \a";
+    content: "​ online source \a for underwater basket \a"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  84.662110858%, 84.9648314351% {
+    content: "​ online source \a for underwater basket ";
+    content: "​ online source \a for underwater basket "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  84.9658314351%, 85.2685520121% {
+    content: "​ online source \a for underwater basket";
+    content: "​ online source \a for underwater basket"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  85.2695520121%, 85.5722725892% {
+    content: "​ online source \a for underwater baske";
+    content: "​ online source \a for underwater baske"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  85.5732725892%, 85.8759931663% {
+    content: "​ online source \a for underwater bask";
+    content: "​ online source \a for underwater bask"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  85.8769931663%, 86.1797137434% {
+    content: "​ online source \a for underwater bas";
+    content: "​ online source \a for underwater bas"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  86.1807137434%, 86.4834343204% {
+    content: "​ online source \a for underwater ba";
+    content: "​ online source \a for underwater ba"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  86.4844343204%, 86.7871548975% {
+    content: "​ online source \a for underwater b";
+    content: "​ online source \a for underwater b"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  86.7881548975%, 87.0908754746% {
+    content: "​ online source \a for underwater ";
+    content: "​ online source \a for underwater "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  87.0918754746%, 87.3945960516% {
+    content: "​ online source \a for underwater";
+    content: "​ online source \a for underwater"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  87.3955960516%, 87.6983166287% {
+    content: "​ online source \a for underwate";
+    content: "​ online source \a for underwate"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  87.6993166287%, 88.0020372058% {
+    content: "​ online source \a for underwat";
+    content: "​ online source \a for underwat"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  88.0030372058%, 88.3057577828% {
+    content: "​ online source \a for underwa";
+    content: "​ online source \a for underwa"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  88.3067577828%, 88.6094783599% {
+    content: "​ online source \a for underw";
+    content: "​ online source \a for underw"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  88.6104783599%, 88.913198937% {
+    content: "​ online source \a for under";
+    content: "​ online source \a for under"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  88.914198937%, 89.216919514% {
+    content: "​ online source \a for unde";
+    content: "​ online source \a for unde"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  89.217919514%, 89.5206400911% {
+    content: "​ online source \a for und";
+    content: "​ online source \a for und"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  89.5216400911%, 89.8243606682% {
+    content: "​ online source \a for un";
+    content: "​ online source \a for un"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  89.8253606682%, 90.1280812453% {
+    content: "​ online source \a for u";
+    content: "​ online source \a for u"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  90.1290812453%, 90.4318018223% {
+    content: "​ online source \a for ";
+    content: "​ online source \a for "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  90.4328018223%, 90.7355223994% {
+    content: "​ online source \a for";
+    content: "​ online source \a for"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  90.7365223994%, 91.0392429765% {
+    content: "​ online source \a fo";
+    content: "​ online source \a fo"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  91.0402429765%, 91.3429635535% {
+    content: "​ online source \a f";
+    content: "​ online source \a f"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  91.3439635535%, 91.6466841306% {
+    content: "​ online source \a";
+    content: "​ online source \a"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  91.6476841306%, 91.9504047077% {
+    content: "​ online source ";
+    content: "​ online source "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  91.9514047077%, 92.2541252847% {
+    content: "​ online source";
+    content: "​ online source"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  92.2551252847%, 92.5578458618% {
+    content: "​ online sourc";
+    content: "​ online sourc"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  92.5588458618%, 92.8615664389% {
+    content: "​ online sour";
+    content: "​ online sour"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  92.8625664389%, 93.1652870159% {
+    content: "​ online sou";
+    content: "​ online sou"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  93.1662870159%, 93.469007593% {
+    content: "​ online so";
+    content: "​ online so"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  93.470007593%, 93.7727281701% {
+    content: "​ online s";
+    content: "​ online s"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  93.7737281701%, 94.0764487472% {
+    content: "​ online ";
+    content: "​ online "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  94.0774487472%, 94.3801693242% {
+    content: "​ online";
+    content: "​ online"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  94.3811693242%, 94.6838899013% {
+    content: "​ onlin";
+    content: "​ onlin"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  94.6848899013%, 94.9876104784% {
+    content: "​ onli";
+    content: "​ onli"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  94.9886104784%, 95.2913310554% {
+    content: "​ onl";
+    content: "​ onl"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  95.2923310554%, 95.5950516325% {
+    content: "​ on";
+    content: "​ on"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  95.5960516325%, 95.8987722096% {
+    content: "​ o";
+    content: "​ o"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  95.8997722096%, 96.2024927866% {
+    content: "​ ";
+    content: "​ "/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
+  }
+  96.2034927866%, 100% {
     content: "​";
-    content: "​"/"The #1 source for \aunderwater basket \aweaving tutorials.";
-    alt: "The #1 source for \aunderwater basket \aweaving tutorials.";
+    content: "​"/" online source \a for underwater basket \aweaving information...**";
+    alt: " online source \a for underwater basket \aweaving information...**";
   }
 }
-@keyframes typed-0-caret {
+@keyframes typed-1-caret {
   75% {
     border-color: transparent;
   }

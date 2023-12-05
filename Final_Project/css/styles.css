@@ -4168,7 +4168,7 @@ body, html {
   background-color: #264653;
   color: white;
   justify-content: space-around;
-  width: 66.666%;
+  width: 80%;
   height: 3rem;
 }
 
@@ -4188,13 +4188,16 @@ body, html {
     font-size: 0.5em;
   }
   .site-nav {
-    width: 20%;
     background-color: unset;
     height: 90%;
     justify-content: flex-end;
     font-size: 0.6em;
     padding-bottom: 5rem;
     align-items: flex-start;
+  }
+  .nav-item {
+    width: 40px;
+    height: 10px;
   }
   .image-block {
     flex-direction: column;
@@ -4211,8 +4214,6 @@ body, html {
   }
   .video-block {
     flex-direction: column;
-    align-items: flex-start;
-    padding-left: 3px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -4243,10 +4244,10 @@ body, html {
 }
 @media (min-width: 1024px) {
   .content-area {
-    width: 66.666%;
+    width: 80%;
   }
   .site-nav {
-    width: 33.333%;
+    width: 20%;
   }
   .video-block iframe {
     width: 560px;
